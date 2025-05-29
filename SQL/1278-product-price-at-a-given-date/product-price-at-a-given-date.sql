@@ -7,7 +7,7 @@ WHERE P1.change_date = (
     WHERE P1.product_id = P2.product_id
         AND P2.change_date <= '2019-08-16') 
 
-UNION
+UNION ALL
 
 SELECT product_id, 10 AS price
 FROM Products
