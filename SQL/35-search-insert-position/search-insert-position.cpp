@@ -1,24 +1,23 @@
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
-        int lower = 0;
-        int upper = nums.size() - 1;
+        return binarySearch(nums, target, 0, nums.size() - 1);
+    }
+private:
+    int binarySearch(vector<int>& nums, int target, int lower, int upper) {
+        if (lower > upper) 
+            return lower;
+        
+        int mid = lower + (upper - lower) / 2;
 
-        while(lower <= upper) {
-            int mid = lower + (upper - lower) / 2;
-
-            if (nums[mid] == target) {
-                return mid;
-            }
-
-            else if (nums[mid] > target) {
-                upper = mid - 1;
-            }
-            else {
-                lower = mid + 1;
-            }
+        if (nums[mid] == target) {
+            return mid;
+        } 
+        else if (nums[mid] > target) {
+            return binarySearch(nums, target, lower, mid - 1);
         }
-
-        return lower;
+        else {
+            return binarySearch(nums, target, mid + 1, upper);
+        }
     }
 };
