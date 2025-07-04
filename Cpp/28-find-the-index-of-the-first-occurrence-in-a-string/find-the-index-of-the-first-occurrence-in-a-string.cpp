@@ -1,6 +1,6 @@
 class Solution {
     public:
-        int strStr(string haystack, string needle) {
+        int strStr(string haystack, string needle) {   // Boyer-Moore Algorithm
             int n = haystack.size();
             int m = needle.size();
             int charJump[26];
