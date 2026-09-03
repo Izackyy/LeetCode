@@ -7,16 +7,16 @@
 ### Difficulty
 | Difficulty | Count |
 | --- | --- |
-| Easy | 106 |
+| Easy | 107 |
 | Medium | 26 |
 | Hard | 2 |
-| **Total** | 134 |
+| **Total** | 135 |
 
 ### Languages
 | Language | Count |
 | --- | --- |
 | C | 1 |
-| C++ | 72 |
+| C++ | 73 |
 | SQL | 62 |
 
 ### Topics by Language
@@ -55,11 +55,11 @@
 - C++ Prefix Sum: 1
 - C++ Queue: 2
 - C++ Recursion: 7
-- C++ Simulation: 2
+- C++ Simulation: 3
 - C++ Sliding Window: 1
 - C++ Sorting: 8
 - C++ Stack: 7
-- C++ String: 18
+- C++ String: 19
 - C++ String Matching: 3
 - C++ Tree: 15
 - C++ Trie: 1

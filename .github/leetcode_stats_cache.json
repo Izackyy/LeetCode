@@ -805,6 +805,13 @@
       "Database"
     ]
   },
+  "robot-return-to-origin": {
+    "difficulty": "Easy",
+    "topics": [
+      "String",
+      "Simulation"
+    ]
+  },
   "rotate-string": {
     "difficulty": "Easy",
     "topics": [
