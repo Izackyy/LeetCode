@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/degree-of-an-array">697. Degree of an Array</a></h2><h3>Easy</h3><hr><p>Given a non-empty array of non-negative integers <code>nums</code>, the <b>degree</b> of this array is defined as the maximum frequency of any one of its elements.</p>
+<h2><a href="https://leetcode.com/problems/degree-of-an-array">697. Degree of an Array</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given a non-empty array of non-negative integers <code>nums</code>, the <b>degree</b> of this array is defined as the maximum frequency of any one of its elements.</p>
 
 <p>Your task is to find the smallest possible length of a (contiguous) subarray of <code>nums</code>, that has the same degree as <code>nums</code>.</p>
 
