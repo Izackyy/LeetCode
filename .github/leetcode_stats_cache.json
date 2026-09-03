@@ -30,6 +30,14 @@
       "Number Theory"
     ]
   },
+  "add-strings": {
+    "difficulty": "Easy",
+    "topics": [
+      "Math",
+      "String",
+      "Simulation"
+    ]
+  },
   "add-two-numbers": {
     "difficulty": "Medium",
     "topics": [
