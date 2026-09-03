@@ -58,6 +58,15 @@
       "Database"
     ]
   },
+  "average-of-levels-in-binary-tree": {
+    "difficulty": "Easy",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
   "average-selling-price": {
     "difficulty": "Easy",
     "topics": [
