@@ -961,6 +961,14 @@
       "Database"
     ]
   },
+  "second-minimum-node-in-a-binary-tree": {
+    "difficulty": "Easy",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ]
+  },
   "single-number": {
     "difficulty": "Easy",
     "topics": [
