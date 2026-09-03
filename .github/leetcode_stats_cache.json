@@ -645,6 +645,12 @@
       "Database"
     ]
   },
+  "number-of-segments-in-a-string": {
+    "difficulty": "Easy",
+    "topics": [
+      "String"
+    ]
+  },
   "number-of-unique-subjects-taught-by-each-teacher": {
     "difficulty": "Easy",
     "topics": [
