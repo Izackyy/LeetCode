@@ -7,17 +7,17 @@
 ### Difficulty
 | Difficulty | Count |
 | --- | --- |
-| Easy | 111 |
+| Easy | 112 |
 | Medium | 26 |
 | Hard | 2 |
-| **Total** | 139 |
+| **Total** | 140 |
 
 ### Languages
 | Language | Count |
 | --- | --- |
 | C | 1 |
 | C++ | 73 |
-| Python | 3 |
+| Python | 4 |
 | SQL | 63 |
 
 ### Topics by Language
@@ -68,10 +68,12 @@
 - C++ Z Algorithm: 1
 - Python Bit Manipulation: 1
 - Python Counting: 2
+- Python Dynamic Programming: 1
 - Python Hash Table: 3
 - Python Queue: 1
 - Python Sorting: 1
-- Python String: 3
+- Python String: 4
+- Python Two Pointers: 1
 - SQL Database: 61
 
 <!---LeetCode Stats End-->

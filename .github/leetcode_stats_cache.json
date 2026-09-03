@@ -462,6 +462,14 @@
       "Database"
     ]
   },
+  "is-subsequence": {
+    "difficulty": "Easy",
+    "topics": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming"
+    ]
+  },
   "isomorphic-strings": {
     "difficulty": "Easy",
     "topics": [
