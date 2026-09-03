@@ -93,6 +93,14 @@
       "Database"
     ]
   },
+  "baseball-game": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Stack",
+      "Simulation"
+    ]
+  },
   "best-time-to-buy-and-sell-stock": {
     "difficulty": "Easy",
     "topics": [
