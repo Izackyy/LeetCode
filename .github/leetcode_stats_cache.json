@@ -317,6 +317,15 @@
       "Database"
     ]
   },
+  "find-the-difference": {
+    "difficulty": "Easy",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Bit Manipulation",
+      "Sorting"
+    ]
+  },
   "find-the-index-of-the-first-occurrence-in-a-string": {
     "difficulty": "Easy",
     "topics": [
