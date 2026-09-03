@@ -126,6 +126,7 @@
 | [0389-find-the-difference](https://github.com/Izackyy/LeetCode/tree/main/Python/0389-find-the-difference/) | Easy |
 | [0409-longest-palindrome](https://github.com/Izackyy/LeetCode/tree/main/Python/0409-longest-palindrome/) | Easy |
 | [0496-next-greater-element-i](https://github.com/Izackyy/LeetCode/tree/main/Python/0496-next-greater-element-i/) | Easy |
+| [0697-degree-of-an-array](https://github.com/Izackyy/LeetCode/tree/main/Python/0697-degree-of-an-array/) | Easy |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -183,6 +184,7 @@
 | [0661-image-smoother](https://github.com/Izackyy/LeetCode/tree/main/Python/0661-image-smoother/) | Easy |
 | [0674-longest-continuous-increasing-subsequence](https://github.com/Izackyy/LeetCode/tree/main/Python/0674-longest-continuous-increasing-subsequence/) | Easy |
 | [0682-baseball-game](https://github.com/Izackyy/LeetCode/tree/main/Python/0682-baseball-game/) | Easy |
+| [0697-degree-of-an-array](https://github.com/Izackyy/LeetCode/tree/main/Python/0697-degree-of-an-array/) | Easy |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
