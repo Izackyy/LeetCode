@@ -109,6 +109,7 @@
 | [0459-repeated-substring-pattern](https://github.com/Izackyy/LeetCode/tree/main/Python/0459-repeated-substring-pattern/) | Easy |
 | [0482-license-key-formatting](https://github.com/Izackyy/LeetCode/tree/main/Python/0482-license-key-formatting/) | Easy |
 | [0657-robot-return-to-origin](https://github.com/Izackyy/LeetCode/tree/main/C++/0657-robot-return-to-origin/) | Easy |
+| [0680-valid-palindrome-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/0680-valid-palindrome-ii/) | Easy |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -144,6 +145,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0392-is-subsequence](https://github.com/Izackyy/LeetCode/tree/main/Python/0392-is-subsequence/) | Easy |
+| [0680-valid-palindrome-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/0680-valid-palindrome-ii/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -152,6 +154,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0409-longest-palindrome](https://github.com/Izackyy/LeetCode/tree/main/Python/0409-longest-palindrome/) | Easy |
+| [0680-valid-palindrome-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/0680-valid-palindrome-ii/) | Easy |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
