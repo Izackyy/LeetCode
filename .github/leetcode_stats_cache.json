@@ -1080,6 +1080,14 @@
       "String"
     ]
   },
+  "valid-palindrome-ii": {
+    "difficulty": "Easy",
+    "topics": [
+      "Two Pointers",
+      "String",
+      "Greedy"
+    ]
+  },
   "valid-parentheses": {
     "difficulty": "Easy",
     "topics": [

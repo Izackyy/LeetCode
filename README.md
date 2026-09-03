@@ -7,17 +7,17 @@
 ### Difficulty
 | Difficulty | Count |
 | --- | --- |
-| Easy | 125 |
+| Easy | 126 |
 | Medium | 26 |
 | Hard | 2 |
-| **Total** | 153 |
+| **Total** | 154 |
 
 ### Languages
 | Language | Count |
 | --- | --- |
 | C | 1 |
 | C++ | 73 |
-| Python | 16 |
+| Python | 17 |
 | SQL | 64 |
 
 ### Topics by Language
@@ -73,7 +73,7 @@
 - Python Counting: 2
 - Python Depth-First Search: 3
 - Python Dynamic Programming: 1
-- Python Greedy: 1
+- Python Greedy: 2
 - Python Hash Function: 1
 - Python Hash Table: 5
 - Python Knuth–Morris–Pratt Algorithm: 1
@@ -84,10 +84,10 @@
 - Python Simulation: 2
 - Python Sorting: 1
 - Python Stack: 1
-- Python String: 10
+- Python String: 11
 - Python String Matching: 2
 - Python Tree: 3
-- Python Two Pointers: 1
+- Python Two Pointers: 2
 - Python Z Algorithm: 1
 - SQL Database: 62
 
