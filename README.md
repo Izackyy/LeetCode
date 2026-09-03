@@ -184,14 +184,17 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0572-subtree-of-another-tree](https://github.com/Izackyy/LeetCode/tree/main/Python/0572-subtree-of-another-tree/) | Easy |
+| [0637-average-of-levels-in-binary-tree](https://github.com/Izackyy/LeetCode/tree/main/Python/0637-average-of-levels-in-binary-tree/) | Easy |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0572-subtree-of-another-tree](https://github.com/Izackyy/LeetCode/tree/main/Python/0572-subtree-of-another-tree/) | Easy |
+| [0637-average-of-levels-in-binary-tree](https://github.com/Izackyy/LeetCode/tree/main/Python/0637-average-of-levels-in-binary-tree/) | Easy |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0572-subtree-of-another-tree](https://github.com/Izackyy/LeetCode/tree/main/Python/0572-subtree-of-another-tree/) | Easy |
+| [0637-average-of-levels-in-binary-tree](https://github.com/Izackyy/LeetCode/tree/main/Python/0637-average-of-levels-in-binary-tree/) | Easy |
 ## Hash Function
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -200,4 +203,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0627-swap-sex-of-employees](https://github.com/Izackyy/LeetCode/tree/main/MySQL/0627-swap-sex-of-employees/) | Easy |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0637-average-of-levels-in-binary-tree](https://github.com/Izackyy/LeetCode/tree/main/Python/0637-average-of-levels-in-binary-tree/) | Easy |
 <!---LeetCode Topics End-->
