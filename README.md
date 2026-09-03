@@ -188,16 +188,19 @@
 | ------- | ------- |
 | [0572-subtree-of-another-tree](https://github.com/Izackyy/LeetCode/tree/main/Python/0572-subtree-of-another-tree/) | Easy |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Izackyy/LeetCode/tree/main/Python/0637-average-of-levels-in-binary-tree/) | Easy |
+| [0671-second-minimum-node-in-a-binary-tree](https://github.com/Izackyy/LeetCode/tree/main/Python/0671-second-minimum-node-in-a-binary-tree/) | Easy |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0572-subtree-of-another-tree](https://github.com/Izackyy/LeetCode/tree/main/Python/0572-subtree-of-another-tree/) | Easy |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Izackyy/LeetCode/tree/main/Python/0637-average-of-levels-in-binary-tree/) | Easy |
+| [0671-second-minimum-node-in-a-binary-tree](https://github.com/Izackyy/LeetCode/tree/main/Python/0671-second-minimum-node-in-a-binary-tree/) | Easy |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0572-subtree-of-another-tree](https://github.com/Izackyy/LeetCode/tree/main/Python/0572-subtree-of-another-tree/) | Easy |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Izackyy/LeetCode/tree/main/Python/0637-average-of-levels-in-binary-tree/) | Easy |
+| [0671-second-minimum-node-in-a-binary-tree](https://github.com/Izackyy/LeetCode/tree/main/Python/0671-second-minimum-node-in-a-binary-tree/) | Easy |
 ## Hash Function
 | Problem Name | Difficulty |
 | ------- | ------- |
