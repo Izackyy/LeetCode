@@ -834,6 +834,15 @@
       "Two Pointers"
     ]
   },
+  "repeated-substring-pattern": {
+    "difficulty": "Easy",
+    "topics": [
+      "String",
+      "String Matching",
+      "Z Algorithm",
+      "Knuth\u2013Morris\u2013Pratt Algorithm"
+    ]
+  },
   "replace-employee-id-with-the-unique-identifier": {
     "difficulty": "Easy",
     "topics": [

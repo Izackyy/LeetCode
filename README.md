@@ -7,17 +7,17 @@
 ### Difficulty
 | Difficulty | Count |
 | --- | --- |
-| Easy | 116 |
+| Easy | 117 |
 | Medium | 26 |
 | Hard | 2 |
-| **Total** | 144 |
+| **Total** | 145 |
 
 ### Languages
 | Language | Count |
 | --- | --- |
 | C | 1 |
 | C++ | 73 |
-| Python | 8 |
+| Python | 9 |
 | SQL | 63 |
 
 ### Topics by Language
@@ -71,12 +71,15 @@
 - Python Dynamic Programming: 1
 - Python Greedy: 1
 - Python Hash Table: 4
+- Python Knuth–Morris–Pratt Algorithm: 1
 - Python Math: 2
 - Python Queue: 1
 - Python Simulation: 2
 - Python Sorting: 1
-- Python String: 8
+- Python String: 9
+- Python String Matching: 1
 - Python Two Pointers: 1
+- Python Z Algorithm: 1
 - SQL Database: 61
 
 <!---LeetCode Stats End-->
