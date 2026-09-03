@@ -1,0 +1,959 @@
+{
+  "4sum": {
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ]
+  },
+  "actors-and-directors-who-cooperated-at-least-three-times": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "add-binary": {
+    "difficulty": "Easy",
+    "topics": [
+      "Math",
+      "String",
+      "Bit Manipulation",
+      "Simulation"
+    ]
+  },
+  "add-digits": {
+    "difficulty": "Easy",
+    "topics": [
+      "Math",
+      "Simulation",
+      "Number Theory"
+    ]
+  },
+  "add-two-numbers": {
+    "difficulty": "Medium",
+    "topics": [
+      "Linked List",
+      "Math",
+      "Recursion"
+    ]
+  },
+  "analyze-subscription-conversion": {
+    "difficulty": "Medium",
+    "topics": [
+      "Database"
+    ]
+  },
+  "article-views-i": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "average-selling-price": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "average-time-of-process-per-machine": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "balanced-binary-tree": {
+    "difficulty": "Easy",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ]
+  },
+  "bank-account-summary-ii": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "best-time-to-buy-and-sell-stock": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  "big-countries": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "biggest-single-number": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "binary-tree-inorder-traversal": {
+    "difficulty": "Easy",
+    "topics": [
+      "Stack",
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ]
+  },
+  "binary-tree-paths": {
+    "difficulty": "Easy",
+    "topics": [
+      "String",
+      "Backtracking",
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ]
+  },
+  "binary-tree-postorder-traversal": {
+    "difficulty": "Easy",
+    "topics": [
+      "Stack",
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ]
+  },
+  "binary-tree-preorder-traversal": {
+    "difficulty": "Easy",
+    "topics": [
+      "Stack",
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ]
+  },
+  "check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence": {
+    "difficulty": "Easy",
+    "topics": [
+      "Two Pointers",
+      "String",
+      "String Matching"
+    ]
+  },
+  "classes-more-than-5-students": {
+    "difficulty": null,
+    "topics": null
+  },
+  "climbing-stairs": {
+    "difficulty": "Easy",
+    "topics": [
+      "Math",
+      "Dynamic Programming",
+      "Memoization"
+    ]
+  },
+  "combine-two-tables": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "consecutive-numbers": {
+    "difficulty": "Medium",
+    "topics": [
+      "Database"
+    ]
+  },
+  "container-with-most-water": {
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Greedy"
+    ]
+  },
+  "contains-duplicate": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Sorting"
+    ]
+  },
+  "contains-duplicate-ii": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Sliding Window"
+    ]
+  },
+  "convert-sorted-array-to-binary-search-tree": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Divide and Conquer",
+      "Tree",
+      "Binary Search Tree",
+      "Binary Tree"
+    ]
+  },
+  "count-complete-tree-nodes": {
+    "difficulty": "Medium",
+    "topics": [
+      "Binary Search",
+      "Bit Manipulation",
+      "Tree",
+      "Binary Tree"
+    ]
+  },
+  "customer-placing-the-largest-number-of-orders": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "customer-who-visited-but-did-not-make-any-transactions": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "customers-who-bought-all-products": {
+    "difficulty": "Medium",
+    "topics": [
+      "Database"
+    ]
+  },
+  "customers-who-never-order": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "daily-leads-and-partners": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "delete-duplicate-emails": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "department-highest-salary": {
+    "difficulty": "Medium",
+    "topics": [
+      "Database"
+    ]
+  },
+  "department-top-three-salaries": {
+    "difficulty": "Hard",
+    "topics": [
+      "Database"
+    ]
+  },
+  "duplicate-emails": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "employee-bonus": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "employees-earning-more-than-their-managers": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "employees-whose-manager-left-the-company": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "excel-sheet-column-number": {
+    "difficulty": "Easy",
+    "topics": [
+      "Math",
+      "String"
+    ]
+  },
+  "excel-sheet-column-title": {
+    "difficulty": "Easy",
+    "topics": [
+      "Math",
+      "String"
+    ]
+  },
+  "find-books-with-no-available-copies": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "find-customer-referee": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "find-followers-count": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "find-students-who-improved": {
+    "difficulty": "Medium",
+    "topics": [
+      "Database"
+    ]
+  },
+  "find-the-index-of-the-first-occurrence-in-a-string": {
+    "difficulty": "Easy",
+    "topics": [
+      "Two Pointers",
+      "String",
+      "String Matching",
+      "Z Algorithm",
+      "Knuth\u2013Morris\u2013Pratt Algorithm",
+      "Boyer\u2013Moore String-Search Algorithm"
+    ]
+  },
+  "find-total-time-spent-by-each-employee": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "find-words-containing-character": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "String"
+    ]
+  },
+  "first-bad-version": {
+    "difficulty": "Easy",
+    "topics": [
+      "Binary Search",
+      "Interactive"
+    ]
+  },
+  "game-play-analysis-i": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "game-play-analysis-iv": {
+    "difficulty": "Medium",
+    "topics": [
+      "Database"
+    ]
+  },
+  "generate-parentheses": {
+    "difficulty": "Medium",
+    "topics": [
+      "String",
+      "Dynamic Programming",
+      "Backtracking",
+      "Bracket Sequences"
+    ]
+  },
+  "group-sold-products-by-the-date": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "immediate-food-delivery-ii": {
+    "difficulty": "Medium",
+    "topics": [
+      "Database"
+    ]
+  },
+  "implement-queue-using-stacks": {
+    "difficulty": "Easy",
+    "topics": [
+      "Stack",
+      "Design",
+      "Queue"
+    ]
+  },
+  "implement-stack-using-queues": {
+    "difficulty": "Easy",
+    "topics": [
+      "Stack",
+      "Design",
+      "Queue"
+    ]
+  },
+  "intersection-of-two-arrays": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Two Pointers",
+      "Binary Search",
+      "Sorting"
+    ]
+  },
+  "intersection-of-two-arrays-ii": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Two Pointers",
+      "Binary Search",
+      "Sorting"
+    ]
+  },
+  "intersection-of-two-linked-lists": {
+    "difficulty": "Easy",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Two Pointers"
+    ]
+  },
+  "invert-binary-tree": {
+    "difficulty": "Easy",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
+  "investments-in-2016": {
+    "difficulty": "Medium",
+    "topics": [
+      "Database"
+    ]
+  },
+  "isomorphic-strings": {
+    "difficulty": "Easy",
+    "topics": [
+      "Hash Table",
+      "String"
+    ]
+  },
+  "last-person-to-fit-in-the-bus": {
+    "difficulty": "Medium",
+    "topics": [
+      "Database"
+    ]
+  },
+  "length-of-last-word": {
+    "difficulty": "Easy",
+    "topics": [
+      "String"
+    ]
+  },
+  "linked-list-cycle": {
+    "difficulty": "Easy",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Two Pointers",
+      "Floyd's Cycle Finding Algorithm"
+    ]
+  },
+  "list-the-products-ordered-in-a-period": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "longest-common-prefix": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "String",
+      "Trie"
+    ]
+  },
+  "majority-element": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Divide and Conquer",
+      "Sorting",
+      "Counting",
+      "Boyer\u2013Moore Majority Vote Algorithm"
+    ]
+  },
+  "managers-with-at-least-5-direct-reports": {
+    "difficulty": "Medium",
+    "topics": [
+      "Database"
+    ]
+  },
+  "market-analysis-i": {
+    "difficulty": "Medium",
+    "topics": [
+      "Database"
+    ]
+  },
+  "maximum-depth-of-binary-tree": {
+    "difficulty": "Easy",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
+  "merge-sorted-array": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ]
+  },
+  "merge-two-sorted-lists": {
+    "difficulty": "Easy",
+    "topics": [
+      "Linked List",
+      "Recursion"
+    ]
+  },
+  "minimum-depth-of-binary-tree": {
+    "difficulty": "Easy",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
+  "missing-number": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Binary Search",
+      "Bit Manipulation",
+      "Sorting"
+    ]
+  },
+  "monthly-transactions-i": {
+    "difficulty": "Medium",
+    "topics": [
+      "Database"
+    ]
+  },
+  "move-zeroes": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Two Pointers"
+    ]
+  },
+  "movie-rating": {
+    "difficulty": "Medium",
+    "topics": [
+      "Database"
+    ]
+  },
+  "nim-game": {
+    "difficulty": "Easy",
+    "topics": [
+      "Math",
+      "Brainteaser",
+      "Minimax",
+      "Game Theory",
+      "Nim Game",
+      "Impartial Game"
+    ]
+  },
+  "not-boring-movies": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "nth-highest-salary": {
+    "difficulty": "Medium",
+    "topics": [
+      "Database"
+    ]
+  },
+  "number-of-unique-subjects-taught-by-each-teacher": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "palindrome-linked-list": {
+    "difficulty": "Easy",
+    "topics": [
+      "Linked List",
+      "Two Pointers",
+      "Stack",
+      "Recursion"
+    ]
+  },
+  "palindrome-number": {
+    "difficulty": "Easy",
+    "topics": [
+      "Math"
+    ]
+  },
+  "pascals-triangle": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  "pascals-triangle-ii": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  "path-sum": {
+    "difficulty": "Easy",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
+  "patients-with-a-condition": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "percentage-of-users-attended-a-contest": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "plus-one": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Math"
+    ]
+  },
+  "power-of-four": {
+    "difficulty": "Easy",
+    "topics": [
+      "Math",
+      "Bit Manipulation",
+      "Recursion"
+    ]
+  },
+  "power-of-two": {
+    "difficulty": "Easy",
+    "topics": [
+      "Math",
+      "Bit Manipulation",
+      "Recursion"
+    ]
+  },
+  "primary-department-for-each-employee": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "product-price-at-a-given-date": {
+    "difficulty": "Medium",
+    "topics": [
+      "Database"
+    ]
+  },
+  "product-sales-analysis-i": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "product-sales-analysis-iii": {
+    "difficulty": "Medium",
+    "topics": [
+      "Database"
+    ]
+  },
+  "project-employees-i": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "queries-quality-and-percentage": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "range-sum-query-immutable": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Design",
+      "Prefix Sum"
+    ]
+  },
+  "rank-scores": {
+    "difficulty": "Medium",
+    "topics": [
+      "Database"
+    ]
+  },
+  "recyclable-and-low-fat-products": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "reformat-department-table": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "remove-duplicates-from-sorted-array": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Two Pointers"
+    ]
+  },
+  "remove-duplicates-from-sorted-list": {
+    "difficulty": "Easy",
+    "topics": [
+      "Linked List"
+    ]
+  },
+  "remove-element": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Two Pointers"
+    ]
+  },
+  "remove-linked-list-elements": {
+    "difficulty": "Easy",
+    "topics": [
+      "Linked List",
+      "Recursion"
+    ]
+  },
+  "remove-nth-node-from-end-of-list": {
+    "difficulty": "Medium",
+    "topics": [
+      "Linked List",
+      "Two Pointers"
+    ]
+  },
+  "replace-employee-id-with-the-unique-identifier": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "reverse-integer": {
+    "difficulty": "Medium",
+    "topics": [
+      "Math"
+    ]
+  },
+  "reverse-linked-list": {
+    "difficulty": "Easy",
+    "topics": [
+      "Linked List",
+      "Recursion"
+    ]
+  },
+  "reverse-string": {
+    "difficulty": "Easy",
+    "topics": [
+      "Two Pointers",
+      "String"
+    ]
+  },
+  "reverse-vowels-of-a-string": {
+    "difficulty": "Easy",
+    "topics": [
+      "Two Pointers",
+      "String"
+    ]
+  },
+  "rising-temperature": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "rotate-string": {
+    "difficulty": "Easy",
+    "topics": [
+      "String",
+      "String Matching"
+    ]
+  },
+  "sales-analysis-iii": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "sales-person": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "same-tree": {
+    "difficulty": "Easy",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
+  "search-insert-position": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Binary Search"
+    ]
+  },
+  "second-highest-salary": {
+    "difficulty": "Medium",
+    "topics": [
+      "Database"
+    ]
+  },
+  "single-number": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Bit Manipulation"
+    ]
+  },
+  "students-and-examinations": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "sum-of-left-leaves": {
+    "difficulty": "Easy",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
+  "symmetric-tree": {
+    "difficulty": "Easy",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
+  "top-travellers": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "trips-and-users": {
+    "difficulty": "Hard",
+    "topics": [
+      "Database"
+    ]
+  },
+  "two-sum": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ]
+  },
+  "two-sum-iv-input-is-a-bst": {
+    "difficulty": "Easy",
+    "topics": [
+      "Hash Table",
+      "Two Pointers",
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Search Tree",
+      "Binary Tree"
+    ]
+  },
+  "ugly-number": {
+    "difficulty": "Easy",
+    "topics": [
+      "Math"
+    ]
+  },
+  "user-activity-for-the-past-30-days-i": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "valid-anagram": {
+    "difficulty": "Easy",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Sorting"
+    ]
+  },
+  "valid-palindrome": {
+    "difficulty": "Easy",
+    "topics": [
+      "Two Pointers",
+      "String"
+    ]
+  },
+  "valid-parentheses": {
+    "difficulty": "Easy",
+    "topics": [
+      "String",
+      "Stack",
+      "Bracket Sequences"
+    ]
+  },
+  "word-pattern": {
+    "difficulty": "Easy",
+    "topics": [
+      "Hash Table",
+      "String"
+    ]
+  },
+  "zigzag-conversion": {
+    "difficulty": "Medium",
+    "topics": [
+      "String"
+    ]
+  }
+}
