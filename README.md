@@ -196,4 +196,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0572-subtree-of-another-tree](https://github.com/Izackyy/LeetCode/tree/main/Python/0572-subtree-of-another-tree/) | Easy |
+## Database
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0627-swap-sex-of-employees](https://github.com/Izackyy/LeetCode/tree/main/MySQL/0627-swap-sex-of-employees/) | Easy |
 <!---LeetCode Topics End-->
