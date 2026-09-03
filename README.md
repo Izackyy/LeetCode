@@ -173,6 +173,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0496-next-greater-element-i](https://github.com/Izackyy/LeetCode/tree/main/Python/0496-next-greater-element-i/) | Easy |
+| [0661-image-smoother](https://github.com/Izackyy/LeetCode/tree/main/Python/0661-image-smoother/) | Easy |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -208,4 +209,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Izackyy/LeetCode/tree/main/Python/0637-average-of-levels-in-binary-tree/) | Easy |
+## Matrix
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0661-image-smoother](https://github.com/Izackyy/LeetCode/tree/main/Python/0661-image-smoother/) | Easy |
 <!---LeetCode Topics End-->
