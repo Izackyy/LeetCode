@@ -175,6 +175,7 @@
 | ------- | ------- |
 | [0496-next-greater-element-i](https://github.com/Izackyy/LeetCode/tree/main/Python/0496-next-greater-element-i/) | Easy |
 | [0661-image-smoother](https://github.com/Izackyy/LeetCode/tree/main/Python/0661-image-smoother/) | Easy |
+| [0674-longest-continuous-increasing-subsequence](https://github.com/Izackyy/LeetCode/tree/main/Python/0674-longest-continuous-increasing-subsequence/) | Easy |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
