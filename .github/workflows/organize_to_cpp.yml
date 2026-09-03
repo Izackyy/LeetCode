@@ -1,0 +1,49 @@
+name: Move C++ solutions to Cpp folder
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  organize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Move C++ files to Cpp folder
+        run: |
+          shopt -s globstar nullglob
+          moved=false
+
+          # Find .cpp files at root level or in problem-named folders (not already in Cpp/)
+          for file in $(find . -maxdepth 2 -name "*.cpp" -not -path "./Cpp/*" -not -path "./.github/*"); do
+            dir=$(dirname "$file")
+            filename=$(basename "$file")
+
+            if [ "$dir" = "." ]; then
+              # File is at repo root
+              mkdir -p Cpp
+              git mv "$file" "Cpp/$filename"
+              moved=true
+            else
+              # File is in a problem folder (e.g., ./0001-two-sum/solution.cpp)
+              foldername=$(basename "$dir")
+              mkdir -p "Cpp/$foldername"
+              # Move all files from that problem folder into Cpp/
+              for f in "$dir"/*; do
+                git mv "$f" "Cpp/$foldername/$(basename "$f")"
+              done
+              # Remove the now-empty folder
+              rmdir "$dir" 2>/dev/null || true
+              moved=true
+            fi
+          done
+
+          if [ "$moved" = true ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git commit -m "chore: move C++ solutions to Cpp folder"
+            git push
+          else
+            echo "No C++ files to move."
+          fi
