@@ -87,6 +87,7 @@
 | [0387-first-unique-character-in-a-string](https://github.com/Izackyy/LeetCode/tree/main/Python/0387-first-unique-character-in-a-string/) | Easy |
 | [0389-find-the-difference](https://github.com/Izackyy/LeetCode/tree/main/Python/0389-find-the-difference/) | Easy |
 | [0392-is-subsequence](https://github.com/Izackyy/LeetCode/tree/main/Python/0392-is-subsequence/) | Easy |
+| [0409-longest-palindrome](https://github.com/Izackyy/LeetCode/tree/main/Python/0409-longest-palindrome/) | Easy |
 | [0657-robot-return-to-origin](https://github.com/Izackyy/LeetCode/tree/main/C++/0657-robot-return-to-origin/) | Easy |
 ## Simulation
 | Problem Name | Difficulty |
@@ -98,6 +99,7 @@
 | [0383-ransom-note](https://github.com/Izackyy/LeetCode/tree/main/Python/0383-ransom-note/) | Easy |
 | [0387-first-unique-character-in-a-string](https://github.com/Izackyy/LeetCode/tree/main/Python/0387-first-unique-character-in-a-string/) | Easy |
 | [0389-find-the-difference](https://github.com/Izackyy/LeetCode/tree/main/Python/0389-find-the-difference/) | Easy |
+| [0409-longest-palindrome](https://github.com/Izackyy/LeetCode/tree/main/Python/0409-longest-palindrome/) | Easy |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -123,4 +125,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0392-is-subsequence](https://github.com/Izackyy/LeetCode/tree/main/Python/0392-is-subsequence/) | Easy |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0409-longest-palindrome](https://github.com/Izackyy/LeetCode/tree/main/Python/0409-longest-palindrome/) | Easy |
 <!---LeetCode Topics End-->
