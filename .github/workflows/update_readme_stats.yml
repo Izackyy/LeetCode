@@ -1,0 +1,252 @@
+name: Update README statistics
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    # Skip runs triggered by this workflow's own commits
+    if: ${{ github.actor != 'github-actions[bot]' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Compute stats and update README
+        run: |
+          python3 << 'PYEOF'
+          import subprocess, os, json, requests, time, re
+
+          CACHE_PATH = ".github/leetcode_stats_cache.json"
+          README_PATH = "README.md"
+          STATS_START = "<!---LeetCode Stats Start-->"
+          STATS_END = "<!---LeetCode Stats End-->"
+
+          EXT_TO_LANG = {
+              ".cpp": "C++", ".cc": "C++", ".cxx": "C++", ".hpp": None,
+              ".c": "C",
+              ".py": "Python",
+              ".java": "Java",
+              ".js": "JavaScript",
+              ".ts": "TypeScript",
+              ".go": "Go",
+              ".rb": "Ruby",
+              ".swift": "Swift",
+              ".kt": "Kotlin",
+              ".cs": "C#",
+              ".sql": "SQL",
+              ".rs": "Rust",
+              ".php": "PHP",
+              ".scala": "Scala",
+          }
+          SKIP_DIRS = {".git", ".github"}
+
+          def run(cmd):
+              return subprocess.run(cmd, shell=True, capture_output=True, text=True)
+
+          def git(cmd):
+              r = run(f"git {cmd}")
+              if r.returncode != 0:
+                  print(f"git {cmd} failed: {r.stderr}")
+              return r
+
+          def get_slug_from_folder(folder_name):
+              """Extract leetcode slug from folder name like '0653-two-sum-iv-input-is-a-bst'"""
+              return re.sub(r'^\d+-', '', folder_name)
+
+          def fetch_problem(slug):
+              """Fetch difficulty + topics from LeetCode GraphQL API.
+              Returns (difficulty, topics_or_None). topics is None if the API
+              doesn't provide topic data for this problem."""
+              url = "https://leetcode.com/graphql"
+              query_with_topics = """
+              query getQuestionDetail($titleSlug: String!) {
+                question(titleSlug: $titleSlug) {
+                  difficulty
+                  topicTags { name }
+                }
+              }
+              """
+              headers = {"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"}
+
+              try:
+                  resp = requests.post(url, json={
+                      "query": query_with_topics,
+                      "variables": {"titleSlug": slug}
+                  }, headers=headers, timeout=10)
+                  data = resp.json()
+                  if "errors" not in data:
+                      question = data.get("data", {}).get("question")
+                      if question:
+                          topics = question.get("topicTags")
+                          topic_names = [t["name"] for t in topics] if topics else None
+                          return question.get("difficulty"), topic_names
+              except Exception as e:
+                  print(f"Failed to fetch problem with topics '{slug}': {e}")
+
+              # Fall back to difficulty-only if topicTags isn't supported / request failed
+              query_basic = """
+              query getQuestionDetail($titleSlug: String!) {
+                question(titleSlug: $titleSlug) {
+                  difficulty
+                }
+              }
+              """
+              try:
+                  resp = requests.post(url, json={
+                      "query": query_basic,
+                      "variables": {"titleSlug": slug}
+                  }, headers=headers, timeout=10)
+                  data = resp.json()
+                  question = data.get("data", {}).get("question")
+                  if question:
+                      return question.get("difficulty"), None
+              except Exception as e:
+                  print(f"Failed to fetch problem '{slug}': {e}")
+
+              return None, None
+
+          def load_cache():
+              if os.path.exists(CACHE_PATH):
+                  with open(CACHE_PATH) as f:
+                      return json.load(f)
+              return {}
+
+          def save_cache(cache):
+              os.makedirs(os.path.dirname(CACHE_PATH), exist_ok=True)
+              with open(CACHE_PATH, 'w') as f:
+                  json.dump(cache, f, indent=2, sort_keys=True)
+
+          # --- Discover every (language, slug) solution entry in the repo ---
+          entries = []  # list of (language, slug, folder)
+          for dirpath, dirnames, filenames in os.walk("."):
+              dirnames[:] = [d for d in dirnames if d not in SKIP_DIRS and not d.startswith(".")]
+              folder = os.path.basename(dirpath)
+              langs_here = set()
+              for fname in filenames:
+                  ext = os.path.splitext(fname)[1].lower()
+                  lang = EXT_TO_LANG.get(ext)
+                  if lang:
+                      langs_here.add(lang)
+              for lang in langs_here:
+                  slug = get_slug_from_folder(folder)
+                  entries.append((lang, slug, dirpath))
+
+          cache = load_cache()
+          cache_changed = False
+
+          for lang, slug, folder in entries:
+              if slug not in cache:
+                  print(f"Fetching stats for: {slug}")
+                  difficulty, topics = fetch_problem(slug)
+                  cache[slug] = {"difficulty": difficulty, "topics": topics}
+                  cache_changed = True
+                  time.sleep(1)
+
+          # --- Aggregate ---
+          difficulty_counts = {"Easy": 0, "Medium": 0, "Hard": 0}
+          language_counts = {}
+          topic_counts = {}  # lang -> topic -> count
+
+          for lang, slug, folder in entries:
+              info = cache.get(slug, {})
+              difficulty = info.get("difficulty")
+              if difficulty in difficulty_counts:
+                  difficulty_counts[difficulty] += 1
+
+              language_counts[lang] = language_counts.get(lang, 0) + 1
+
+              topics = info.get("topics")
+              if topics:
+                  for topic in topics:
+                      topic_counts.setdefault(lang, {})
+                      topic_counts[lang][topic] = topic_counts[lang].get(topic, 0) + 1
+
+          total = sum(difficulty_counts.values())
+
+          # --- Build markdown ---
+          lines = [STATS_START, "", "## Statistics", ""]
+
+          lines.append("### Difficulty")
+          lines.append("| Difficulty | Count |")
+          lines.append("| --- | --- |")
+          for level in ("Easy", "Medium", "Hard"):
+              lines.append(f"| {level} | {difficulty_counts[level]} |")
+          lines.append(f"| **Total** | {total} |")
+          lines.append("")
+
+          lines.append("### Languages")
+          lines.append("| Language | Count |")
+          lines.append("| --- | --- |")
+          for lang in sorted(language_counts):
+              lines.append(f"| {lang} | {language_counts[lang]} |")
+          lines.append("")
+
+          if topic_counts:
+              lines.append("### Topics by Language")
+              lines.append("")
+              for lang in sorted(topic_counts):
+                  for topic in sorted(topic_counts[lang]):
+                      lines.append(f"- {lang} {topic}: {topic_counts[lang][topic]}")
+              lines.append("")
+          else:
+              print("No topic data available from the API; skipping topic counts.")
+
+          lines.append(STATS_END)
+          stats_block = "\n".join(lines)
+
+          # --- Splice into README.md ---
+          if os.path.exists(README_PATH):
+              with open(README_PATH) as f:
+                  readme = f.read()
+          else:
+              readme = "# LeetCode\n"
+
+          if STATS_START in readme and STATS_END in readme:
+              pattern = re.compile(re.escape(STATS_START) + r".*?" + re.escape(STATS_END), re.DOTALL)
+              new_readme = pattern.sub(stats_block, readme)
+          else:
+              new_readme = readme.rstrip("\n") + "\n\n" + stats_block + "\n"
+
+          readme_changed = new_readme != readme
+          if readme_changed:
+              with open(README_PATH, 'w') as f:
+                  f.write(new_readme)
+
+          if cache_changed:
+              save_cache(cache)
+
+          if readme_changed or cache_changed:
+              git('add README.md .github/leetcode_stats_cache.json')
+              git('config user.name "github-actions[bot]"')
+              git('config user.email "github-actions[bot]@users.noreply.github.com"')
+              git('commit -m "chore: update README statistics"')
+
+              # Other workflows may push to main concurrently; rebase and retry.
+              pushed = False
+              for attempt in range(5):
+                  if git('push').returncode == 0:
+                      pushed = True
+                      break
+                  print(f"Push failed, retrying with rebase (attempt {attempt + 1})...")
+                  git('pull --rebase origin main')
+              if not pushed:
+                  print("Failed to push after retries.")
+              else:
+                  print("Changes committed and pushed.")
+          else:
+              print("No changes needed.")
+          PYEOF
