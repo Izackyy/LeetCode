@@ -977,6 +977,12 @@
       "Binary Tree"
     ]
   },
+  "swap-sex-of-employees": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
   "symmetric-tree": {
     "difficulty": "Easy",
     "topics": [
