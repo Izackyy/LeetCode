@@ -1,0 +1,128 @@
+name: Generate READMEs for C++ solutions
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate-readmes:
+    runs-on: ubuntu-latest
+    # Skip runs triggered by this workflow's own commits
+    if: ${{ github.actor != 'github-actions[bot]' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate READMEs for C++ problem folders missing one
+        run: |
+          python3 << 'PYEOF'
+          import subprocess, os, requests, time, re
+
+          def run(cmd):
+              return subprocess.run(cmd, shell=True, capture_output=True, text=True)
+
+          def git(cmd):
+              r = run(f"git {cmd}")
+              if r.returncode != 0:
+                  print(f"git {cmd} failed: {r.stderr}")
+              return r
+
+          def get_slug_from_folder(folder_name):
+              """Extract leetcode slug from folder name like '0653-two-sum-iv-input-is-a-bst'"""
+              return re.sub(r'^\d+-', '', folder_name)
+
+          def fetch_problem(slug):
+              """Fetch problem details from LeetCode GraphQL API"""
+              url = "https://leetcode.com/graphql"
+              query = """
+              query getQuestionDetail($titleSlug: String!) {
+                question(titleSlug: $titleSlug) {
+                  title
+                  difficulty
+                  content
+                }
+              }
+              """
+              try:
+                  resp = requests.post(url, json={
+                      "query": query,
+                      "variables": {"titleSlug": slug}
+                  }, headers={
+                      "Content-Type": "application/json",
+                      "User-Agent": "Mozilla/5.0"
+                  }, timeout=10)
+                  data = resp.json()
+                  if data.get("data", {}).get("question"):
+                      return data["data"]["question"]
+              except Exception as e:
+                  print(f"Failed to fetch problem '{slug}': {e}")
+              return None
+
+          def get_difficulty_badge(difficulty):
+              colors = {"Easy": "brightgreen", "Medium": "orange", "Hard": "red"}
+              color = colors.get(difficulty, "grey")
+              return f"<img src='https://img.shields.io/badge/Difficulty-{difficulty}-{color}' alt='Difficulty: {difficulty}' />"
+
+          def generate_readme(slug):
+              """Generate a README.md matching LeetSync format"""
+              problem = fetch_problem(slug)
+              if not problem:
+                  print(f"Could not fetch problem for slug: {slug}")
+                  return None
+
+              title = problem["title"]
+              difficulty = problem["difficulty"]
+              content = problem["content"]
+              badge = get_difficulty_badge(difficulty)
+
+              return f'<h2><a href="https://leetcode.com/problems/{slug}">{title}</a></h2> {badge}<hr>{content}\n'
+
+          changed = False
+          cpp_dir = "C++"
+
+          if os.path.isdir(cpp_dir):
+              for folder in sorted(os.listdir(cpp_dir)):
+                  folder_path = os.path.join(cpp_dir, folder)
+                  if not os.path.isdir(folder_path):
+                      continue
+                  readme_path = os.path.join(folder_path, "README.md")
+                  if os.path.exists(readme_path):
+                      continue
+
+                  has_cpp = any(f.endswith('.cpp') for f in os.listdir(folder_path))
+                  if not has_cpp:
+                      continue
+
+                  slug = get_slug_from_folder(folder)
+                  print(f"Generating README for: {folder} (slug: {slug})")
+
+                  readme_content = generate_readme(slug)
+                  if readme_content:
+                      with open(readme_path, 'w') as f:
+                          f.write(readme_content)
+                      git(f'add "C++/{folder}/README.md"')
+                      changed = True
+                      # Rate limit: be nice to LeetCode API
+                      time.sleep(1)
+
+          if changed:
+              git('config user.name "github-actions[bot]"')
+              git('config user.email "github-actions[bot]@users.noreply.github.com"')
+              git('commit -m "chore: generate READMEs for C++ solutions"')
+              git('push')
+              print("Changes committed and pushed.")
+          else:
+              print("No changes needed.")
+          PYEOF

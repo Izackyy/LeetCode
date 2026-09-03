@@ -1,49 +1,61 @@
-name: Move C++ solutions to Cpp folder
+name: Organize stray C++ files
 
 on:
   push:
     branches: [main]
 
+permissions:
+  contents: write
+
 jobs:
   organize:
     runs-on: ubuntu-latest
+    # Skip runs triggered by this workflow's own commits
+    if: ${{ github.actor != 'github-actions[bot]' }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
 
-      - name: Move C++ files to Cpp folder
+      - name: Move stray C++ files into C++/
         run: |
-          shopt -s globstar nullglob
-          moved=false
+          python3 << 'PYEOF'
+          import subprocess, os
 
-          # Find .cpp files at root level or in problem-named folders (not already in Cpp/)
-          for file in $(find . -maxdepth 2 -name "*.cpp" -not -path "./Cpp/*" -not -path "./.github/*"); do
-            dir=$(dirname "$file")
-            filename=$(basename "$file")
+          def run(cmd):
+              return subprocess.run(cmd, shell=True, capture_output=True, text=True)
 
-            if [ "$dir" = "." ]; then
-              # File is at repo root
-              mkdir -p Cpp
-              git mv "$file" "Cpp/$filename"
-              moved=true
-            else
-              # File is in a problem folder (e.g., ./0001-two-sum/solution.cpp)
-              foldername=$(basename "$dir")
-              mkdir -p "Cpp/$foldername"
-              # Move all files from that problem folder into Cpp/
-              for f in "$dir"/*; do
-                git mv "$f" "Cpp/$foldername/$(basename "$f")"
-              done
-              # Remove the now-empty folder
-              rmdir "$dir" 2>/dev/null || true
-              moved=true
-            fi
-          done
+          def git(cmd):
+              r = run(f"git {cmd}")
+              if r.returncode != 0:
+                  print(f"git {cmd} failed: {r.stderr}")
+              return r
 
-          if [ "$moved" = true ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git commit -m "chore: move C++ solutions to Cpp folder"
-            git push
-          else
-            echo "No C++ files to move."
-          fi
+          changed = False
+
+          result = run("find . -maxdepth 2 -name '*.cpp' -not -path './C++/*' -not -path './.github/*'")
+          for file in result.stdout.strip().split('\n'):
+              if not file:
+                  continue
+              d = os.path.dirname(file)
+              fname = os.path.basename(file)
+              if d == ".":
+                  os.makedirs("C++", exist_ok=True)
+                  git(f'mv "{file}" "C++/{fname}"')
+                  changed = True
+              else:
+                  foldername = os.path.basename(d)
+                  os.makedirs(f"C++/{foldername}", exist_ok=True)
+                  for f in os.listdir(d):
+                      git(f'mv "{d}/{f}" "C++/{foldername}/{f}"')
+                  changed = True
+
+          if changed:
+              git('config user.name "github-actions[bot]"')
+              git('config user.email "github-actions[bot]@users.noreply.github.com"')
+              git('commit -m "chore: move stray C++ files into C++ folder"')
+              git('push')
+              print("Changes committed and pushed.")
+          else:
+              print("No changes needed.")
+          PYEOF
