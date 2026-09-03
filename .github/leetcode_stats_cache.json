@@ -958,6 +958,16 @@
       "Database"
     ]
   },
+  "subtree-of-another-tree": {
+    "difficulty": "Easy",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "String Matching",
+      "Binary Tree",
+      "Hash Function"
+    ]
+  },
   "sum-of-left-leaves": {
     "difficulty": "Easy",
     "topics": [
