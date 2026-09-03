@@ -628,6 +628,15 @@
       "Database"
     ]
   },
+  "next-greater-element-i": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Stack",
+      "Monotonic Stack"
+    ]
+  },
   "nim-game": {
     "difficulty": "Easy",
     "topics": [
