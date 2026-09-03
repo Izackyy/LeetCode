@@ -68,3 +68,15 @@
 - SQL Database: 61
 
 <!---LeetCode Stats End-->
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0657-robot-return-to-origin](https://github.com/Izackyy/LeetCode/tree/main/C++/0657-robot-return-to-origin/) | Easy |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0657-robot-return-to-origin](https://github.com/Izackyy/LeetCode/tree/main/C++/0657-robot-return-to-origin/) | Easy |
+<!---LeetCode Topics End-->
