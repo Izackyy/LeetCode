@@ -93,6 +93,7 @@
 | [0409-longest-palindrome](https://github.com/Izackyy/LeetCode/tree/main/Python/0409-longest-palindrome/) | Easy |
 | [0412-fizz-buzz](https://github.com/Izackyy/LeetCode/tree/main/Python/0412-fizz-buzz/) | Easy |
 | [0415-add-strings](https://github.com/Izackyy/LeetCode/tree/main/Python/0415-add-strings/) | Easy |
+| [0434-number-of-segments-in-a-string](https://github.com/Izackyy/LeetCode/tree/main/Python/0434-number-of-segments-in-a-string/) | Easy |
 | [0657-robot-return-to-origin](https://github.com/Izackyy/LeetCode/tree/main/C++/0657-robot-return-to-origin/) | Easy |
 ## Simulation
 | Problem Name | Difficulty |
