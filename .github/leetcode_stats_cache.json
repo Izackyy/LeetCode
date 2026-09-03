@@ -120,6 +120,13 @@
       "Database"
     ]
   },
+  "binary-search": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Binary Search"
+    ]
+  },
   "binary-tree-inorder-traversal": {
     "difficulty": "Easy",
     "topics": [
