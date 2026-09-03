@@ -550,6 +550,12 @@
       "Trie"
     ]
   },
+  "longest-continuous-increasing-subsequence": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array"
+    ]
+  },
   "longest-palindrome": {
     "difficulty": "Easy",
     "topics": [
