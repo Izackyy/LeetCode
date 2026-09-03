@@ -422,6 +422,13 @@
       "Database"
     ]
   },
+  "image-smoother": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Matrix"
+    ]
+  },
   "immediate-food-delivery-ii": {
     "difficulty": "Medium",
     "topics": [
