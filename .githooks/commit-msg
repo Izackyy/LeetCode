@@ -1,28 +1,54 @@
 #!/bin/sh
-# Rejects empty, too-short, or placeholder commit messages.
-# Deliberately lenient on format: this repo's history mixes Conventional
-# Commits ("chore: ...") with LeetHub's auto-generated messages
-# ("Time: 0 ms ... - LeetHub", "Add X to topics."), so format is not enforced.
+# Enforces Conventional Commits on the subject line, e.g.:
+#   feat: add binary search helper
+#   fix(readme): correct difficulty badge color
+#
+# Exempt: LeetHub's browser-extension auto-commits. Those are pushed
+# straight from the extension on every accepted submission, never
+# touch a human editor, and always match one of its fixed templates
+# below — so they're let through unchanged rather than rejected.
 
 commit_msg_file="$1"
-first_line=$(grep -v '^#' "$commit_msg_file" | sed '/^[[:space:]]*$/d' | head -n1)
+content=$(grep -v '^#' "$commit_msg_file")
+first_line=$(printf '%s\n' "$content" | sed -n '1p')
+second_line=$(printf '%s\n' "$content" | sed -n '2p')
+
+case "$first_line" in
+  Time:*-\ LeetHub) exit 0 ;;
+  Add\ *\ to\ topics.) exit 0 ;;
+  Added\ README.md\ file\ for\ *) exit 0 ;;
+  Create\ readme\ :*) exit 0 ;;
+  Update\ *.cpp|Update\ *.cc|Update\ *.cxx|Update\ *.c|Update\ *.py|Update\ *.java|Update\ *.js|Update\ *.ts|Update\ *.go|Update\ *.rb|Update\ *.swift|Update\ *.kt|Update\ *.cs|Update\ *.sql|Update\ *.rs|Update\ *.php|Update\ *.scala)
+    exit 0 ;;
+esac
 
 if [ -z "$first_line" ]; then
   echo "commit-msg: empty commit message." >&2
   exit 1
 fi
 
-len=$(printf '%s' "$first_line" | wc -c)
-if [ "$len" -lt 4 ]; then
-  echo "commit-msg: message too short: '$first_line'" >&2
+types="feat|fix|chore|docs|style|refactor|perf|test|build|ci|revert"
+if ! printf '%s' "$first_line" | grep -qE "^(${types})(\([a-zA-Z0-9_.-]+\))?(!)?: .+"; then
+  echo "commit-msg: subject must follow Conventional Commits: type(scope): description" >&2
+  echo "commit-msg: allowed types: feat, fix, chore, docs, style, refactor, perf, test, build, ci, revert" >&2
+  echo "commit-msg: got: '$first_line'" >&2
   exit 1
 fi
 
 case "$first_line" in
-  wip|WIP|Wip|tmp|TMP|test|Test|asdf|.|..|fixup\!*|squash\!*)
-    echo "commit-msg: placeholder/fixup message not allowed: '$first_line'" >&2
-    exit 1
-    ;;
+  *.) echo "commit-msg: subject should not end with a period." >&2; exit 1 ;;
 esac
+
+len=$(printf '%s' "$first_line" | wc -c)
+if [ "$len" -gt 72 ]; then
+  echo "commit-msg: subject line too long (${len} chars, keep to 72)." >&2
+  exit 1
+fi
+
+line_count=$(printf '%s\n' "$content" | grep -c '')
+if [ "$line_count" -gt 1 ] && [ -n "$second_line" ]; then
+  echo "commit-msg: second line must be blank to separate subject from body." >&2
+  exit 1
+fi
 
 exit 0
