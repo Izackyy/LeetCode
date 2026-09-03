@@ -724,6 +724,14 @@
       "Database"
     ]
   },
+  "ransom-note": {
+    "difficulty": "Easy",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Counting"
+    ]
+  },
   "recyclable-and-low-fat-products": {
     "difficulty": "Easy",
     "topics": [
