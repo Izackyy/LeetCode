@@ -505,6 +505,12 @@
       "String"
     ]
   },
+  "license-key-formatting": {
+    "difficulty": "Easy",
+    "topics": [
+      "String"
+    ]
+  },
   "linked-list-cycle": {
     "difficulty": "Easy",
     "topics": [
