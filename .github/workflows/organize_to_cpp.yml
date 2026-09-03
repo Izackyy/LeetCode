@@ -53,7 +53,11 @@ jobs:
           if changed:
               git('config user.name "github-actions[bot]"')
               git('config user.email "github-actions[bot]@users.noreply.github.com"')
-              git('commit -m "chore: move stray C++ files into C++ folder"')
+              # Reuse the triggering commit's message and authorship (-C HEAD)
+              # instead of writing our own — a distinct "chore: move stray
+              # C++ files..." commit becomes the file's "last commit" in
+              # GitHub's UI and buries the original commit's message.
+              git('commit -C HEAD')
               git('push')
               print("Changes committed and pushed.")
           else:
