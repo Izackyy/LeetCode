@@ -7,17 +7,17 @@
 ### Difficulty
 | Difficulty | Count |
 | --- | --- |
-| Easy | 112 |
+| Easy | 113 |
 | Medium | 26 |
 | Hard | 2 |
-| **Total** | 140 |
+| **Total** | 141 |
 
 ### Languages
 | Language | Count |
 | --- | --- |
 | C | 1 |
 | C++ | 73 |
-| Python | 4 |
+| Python | 5 |
 | SQL | 63 |
 
 ### Topics by Language
@@ -69,10 +69,11 @@
 - Python Bit Manipulation: 1
 - Python Counting: 2
 - Python Dynamic Programming: 1
-- Python Hash Table: 3
+- Python Greedy: 1
+- Python Hash Table: 4
 - Python Queue: 1
 - Python Sorting: 1
-- Python String: 4
+- Python String: 5
 - Python Two Pointers: 1
 - SQL Database: 61
 

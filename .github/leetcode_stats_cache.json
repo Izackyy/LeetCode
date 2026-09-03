@@ -512,6 +512,14 @@
       "Trie"
     ]
   },
+  "longest-palindrome": {
+    "difficulty": "Easy",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Greedy"
+    ]
+  },
   "majority-element": {
     "difficulty": "Easy",
     "topics": [
