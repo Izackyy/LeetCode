@@ -352,6 +352,15 @@
       "Interactive"
     ]
   },
+  "first-unique-character-in-a-string": {
+    "difficulty": "Easy",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Queue",
+      "Counting"
+    ]
+  },
   "game-play-analysis-i": {
     "difficulty": "Easy",
     "topics": [

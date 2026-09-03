@@ -7,17 +7,17 @@
 ### Difficulty
 | Difficulty | Count |
 | --- | --- |
-| Easy | 109 |
+| Easy | 110 |
 | Medium | 26 |
 | Hard | 2 |
-| **Total** | 137 |
+| **Total** | 138 |
 
 ### Languages
 | Language | Count |
 | --- | --- |
 | C | 1 |
 | C++ | 73 |
-| Python | 1 |
+| Python | 2 |
 | SQL | 63 |
 
 ### Topics by Language
@@ -66,9 +66,10 @@
 - C++ Trie: 1
 - C++ Two Pointers: 18
 - C++ Z Algorithm: 1
-- Python Counting: 1
-- Python Hash Table: 1
-- Python String: 1
+- Python Counting: 2
+- Python Hash Table: 2
+- Python Queue: 1
+- Python String: 2
 - SQL Database: 61
 
 <!---LeetCode Stats End-->
