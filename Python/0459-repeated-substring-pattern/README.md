@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/license-key-formatting/description/">459. Repeated Substring Pattern</a></h2><h3>Easy</h3><hr><p>Given a string <code>s</code>, check if it can be constructed by taking a substring of it and appending multiple copies of the substring together.</p>
+<h2><a href="https://leetcode.com/problems/license-key-formatting/description/">459. Repeated Substring Pattern</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given a string <code>s</code>, check if it can be constructed by taking a substring of it and appending multiple copies of the substring together.</p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
