@@ -74,9 +74,18 @@
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0383-ransom-note](https://github.com/Izackyy/LeetCode/tree/main/Python/0383-ransom-note/) | Easy |
 | [0657-robot-return-to-origin](https://github.com/Izackyy/LeetCode/tree/main/C++/0657-robot-return-to-origin/) | Easy |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0657-robot-return-to-origin](https://github.com/Izackyy/LeetCode/tree/main/C++/0657-robot-return-to-origin/) | Easy |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0383-ransom-note](https://github.com/Izackyy/LeetCode/tree/main/Python/0383-ransom-note/) | Easy |
+## Counting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0383-ransom-note](https://github.com/Izackyy/LeetCode/tree/main/Python/0383-ransom-note/) | Easy |
 <!---LeetCode Topics End-->
