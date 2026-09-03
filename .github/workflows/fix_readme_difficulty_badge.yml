@@ -1,0 +1,92 @@
+name: Fix README difficulty badge format
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  fix-difficulty-badge:
+    runs-on: ubuntu-latest
+    # Skip runs triggered by this workflow's own commits
+    if: ${{ github.actor != 'github-actions[bot]' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Convert LeetHub-style difficulty tags to LeetSync-style badges
+        run: |
+          python3 << 'PYEOF'
+          import subprocess, os, re
+
+          def run(cmd):
+              return subprocess.run(cmd, shell=True, capture_output=True, text=True)
+
+          def git(cmd):
+              r = run(f"git {cmd}")
+              if r.returncode != 0:
+                  print(f"git {cmd} failed: {r.stderr}")
+              return r
+
+          COLORS = {"Easy": "brightgreen", "Medium": "orange", "Hard": "red"}
+
+          # Matches LeetHub's old "</h2><h3>Easy</h3><hr>" style (whitespace-tolerant)
+          PATTERN = re.compile(
+              r'</h2>\s*<h3[^>]*>\s*(Easy|Medium|Hard)\s*</h3>\s*<hr>',
+              re.IGNORECASE
+          )
+
+          def to_badge(match):
+              difficulty = match.group(1).capitalize()
+              color = COLORS.get(difficulty, "grey")
+              badge = f"<img src='https://img.shields.io/badge/Difficulty-{difficulty}-{color}' alt='Difficulty: {difficulty}' />"
+              return f"</h2> {badge}<hr>"
+
+          changed_files = []
+
+          for dirpath, dirnames, filenames in os.walk("."):
+              dirnames[:] = [d for d in dirnames if d not in (".git", ".github") and not d.startswith(".")]
+              if dirpath == ".":
+                  # Skip the repo-root README.md (stats file, not a problem README)
+                  continue
+              if "README.md" not in filenames:
+                  continue
+
+              path = os.path.join(dirpath, "README.md")
+              with open(path, encoding="utf-8") as f:
+                  content = f.read()
+
+              new_content = PATTERN.sub(to_badge, content)
+              if new_content != content:
+                  with open(path, 'w', encoding="utf-8") as f:
+                      f.write(new_content)
+                  git(f'add "{path}"')
+                  changed_files.append(path)
+
+          if changed_files:
+              print(f"Fixed difficulty badge in {len(changed_files)} file(s):")
+              for p in changed_files:
+                  print(f"  {p}")
+
+              git('config user.name "github-actions[bot]"')
+              git('config user.email "github-actions[bot]@users.noreply.github.com"')
+              git('commit -m "chore: normalize difficulty badges to LeetSync style"')
+
+              # Other workflows may push to main concurrently; rebase and retry.
+              pushed = False
+              for attempt in range(5):
+                  if git('push').returncode == 0:
+                      pushed = True
+                      break
+                  print(f"Push failed, retrying with rebase (attempt {attempt + 1})...")
+                  git('pull --rebase origin main')
+              if not pushed:
+                  print("Failed to push after retries.")
+              else:
+                  print("Changes committed and pushed.")
+          else:
+              print("No changes needed.")
+          PYEOF
