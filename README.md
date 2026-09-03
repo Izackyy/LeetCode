@@ -7,17 +7,17 @@
 ### Difficulty
 | Difficulty | Count |
 | --- | --- |
-| Easy | 107 |
+| Easy | 108 |
 | Medium | 26 |
 | Hard | 2 |
-| **Total** | 135 |
+| **Total** | 136 |
 
 ### Languages
 | Language | Count |
 | --- | --- |
 | C | 1 |
 | C++ | 73 |
-| SQL | 62 |
+| SQL | 63 |
 
 ### Topics by Language
 

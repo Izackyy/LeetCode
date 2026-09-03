@@ -334,6 +334,10 @@
       "Database"
     ]
   },
+  "find-users-with-high-token-usage": {
+    "difficulty": "Easy",
+    "topics": null
+  },
   "find-words-containing-character": {
     "difficulty": "Easy",
     "topics": [
