@@ -113,6 +113,7 @@
 | [0387-first-unique-character-in-a-string](https://github.com/Izackyy/LeetCode/tree/main/Python/0387-first-unique-character-in-a-string/) | Easy |
 | [0389-find-the-difference](https://github.com/Izackyy/LeetCode/tree/main/Python/0389-find-the-difference/) | Easy |
 | [0409-longest-palindrome](https://github.com/Izackyy/LeetCode/tree/main/Python/0409-longest-palindrome/) | Easy |
+| [0496-next-greater-element-i](https://github.com/Izackyy/LeetCode/tree/main/Python/0496-next-greater-element-i/) | Easy |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -159,4 +160,16 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0459-repeated-substring-pattern](https://github.com/Izackyy/LeetCode/tree/main/Python/0459-repeated-substring-pattern/) | Easy |
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0496-next-greater-element-i](https://github.com/Izackyy/LeetCode/tree/main/Python/0496-next-greater-element-i/) | Easy |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0496-next-greater-element-i](https://github.com/Izackyy/LeetCode/tree/main/Python/0496-next-greater-element-i/) | Easy |
+## Monotonic Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0496-next-greater-element-i](https://github.com/Izackyy/LeetCode/tree/main/Python/0496-next-greater-element-i/) | Easy |
 <!---LeetCode Topics End-->
