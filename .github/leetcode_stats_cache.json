@@ -370,6 +370,14 @@
       "Counting"
     ]
   },
+  "fizz-buzz": {
+    "difficulty": "Easy",
+    "topics": [
+      "Math",
+      "String",
+      "Simulation"
+    ]
+  },
   "game-play-analysis-i": {
     "difficulty": "Easy",
     "topics": [
