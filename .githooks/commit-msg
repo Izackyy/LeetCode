@@ -1,0 +1,28 @@
+#!/bin/sh
+# Rejects empty, too-short, or placeholder commit messages.
+# Deliberately lenient on format: this repo's history mixes Conventional
+# Commits ("chore: ...") with LeetHub's auto-generated messages
+# ("Time: 0 ms ... - LeetHub", "Add X to topics."), so format is not enforced.
+
+commit_msg_file="$1"
+first_line=$(grep -v '^#' "$commit_msg_file" | sed '/^[[:space:]]*$/d' | head -n1)
+
+if [ -z "$first_line" ]; then
+  echo "commit-msg: empty commit message." >&2
+  exit 1
+fi
+
+len=$(printf '%s' "$first_line" | wc -c)
+if [ "$len" -lt 4 ]; then
+  echo "commit-msg: message too short: '$first_line'" >&2
+  exit 1
+fi
+
+case "$first_line" in
+  wip|WIP|Wip|tmp|TMP|test|Test|asdf|.|..|fixup\!*|squash\!*)
+    echo "commit-msg: placeholder/fixup message not allowed: '$first_line'" >&2
+    exit 1
+    ;;
+esac
+
+exit 0
