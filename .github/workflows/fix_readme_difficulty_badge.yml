@@ -73,7 +73,11 @@ jobs:
 
               git('config user.name "github-actions[bot]"')
               git('config user.email "github-actions[bot]@users.noreply.github.com"')
-              git('commit -m "chore: normalize difficulty badges to LeetSync style"')
+              # Reuse the triggering commit's message and authorship (-C HEAD)
+              # instead of writing our own — a distinct "chore: normalize..."
+              # commit becomes the file's "last commit" in GitHub's UI and
+              # buries LeetHub's own message (e.g. its Time/Space stats line).
+              git('commit -C HEAD')
 
               # Other workflows may push to main concurrently; rebase and retry.
               pushed = False
