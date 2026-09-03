@@ -269,6 +269,13 @@
       "Database"
     ]
   },
+  "degree-of-an-array": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ]
+  },
   "delete-duplicate-emails": {
     "difficulty": "Easy",
     "topics": [
