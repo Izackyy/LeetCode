@@ -7,17 +7,17 @@
 ### Difficulty
 | Difficulty | Count |
 | --- | --- |
-| Easy | 130 |
+| Easy | 131 |
 | Medium | 26 |
 | Hard | 2 |
-| **Total** | 158 |
+| **Total** | 159 |
 
 ### Languages
 | Language | Count |
 | --- | --- |
 | C | 1 |
 | C++ | 73 |
-| Python | 21 |
+| Python | 22 |
 | SQL | 64 |
 
 ### Topics by Language
@@ -85,7 +85,7 @@
 - Python Simulation: 3
 - Python Sorting: 1
 - Python Stack: 2
-- Python String: 12
+- Python String: 13
 - Python String Matching: 2
 - Python Tree: 3
 - Python Two Pointers: 3

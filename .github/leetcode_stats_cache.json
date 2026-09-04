@@ -1051,6 +1051,12 @@
       "Binary Tree"
     ]
   },
+  "to-lower-case": {
+    "difficulty": "Easy",
+    "topics": [
+      "String"
+    ]
+  },
   "top-travellers": {
     "difficulty": "Easy",
     "topics": [
