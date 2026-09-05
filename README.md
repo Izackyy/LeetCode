@@ -30,8 +30,8 @@
 - C++ Binary Search Tree: 4
 - C++ Binary Tree: 19
 - C++ Bit Manipulation: 8
-- C++ Boyer–Moore Majority Vote Algorithm: 1
-- C++ Boyer–Moore String-Search Algorithm: 1
+- C++ Boyerâ€“Moore Majority Vote Algorithm: 1
+- C++ Boyerâ€“Moore String-Search Algorithm: 1
 - C++ Bracket Sequences: 2
 - C++ Brainteaser: 1
 - C++ Breadth-First Search: 11
@@ -49,7 +49,7 @@
 - C++ Heap (Priority Queue): 1
 - C++ Impartial Game: 1
 - C++ Interactive: 1
-- C++ Knuth–Morris–Pratt Algorithm: 1
+- C++ Knuthâ€“Morrisâ€“Pratt Algorithm: 1
 - C++ Linked List: 9
 - C++ Math: 19
 - C++ Matrix: 2
@@ -87,7 +87,7 @@
 - Python Hash Function: 1
 - Python Hash Table: 12
 - Python Heap (Priority Queue): 1
-- Python Knuth–Morris–Pratt Algorithm: 1
+- Python Knuthâ€“Morrisâ€“Pratt Algorithm: 1
 - Python Linked List: 2
 - Python Manacher: 1
 - Python Math: 2
