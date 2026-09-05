@@ -1,4 +1,20 @@
 {
+  "3sum": {
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ]
+  },
+  "3sum-closest": {
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ]
+  },
   "4sum": {
     "difficulty": "Medium",
     "topics": [
@@ -52,10 +68,29 @@
       "Database"
     ]
   },
+  "array-partition": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Greedy",
+      "Sorting",
+      "Counting Sort"
+    ]
+  },
   "article-views-i": {
     "difficulty": "Easy",
     "topics": [
       "Database"
+    ]
+  },
+  "assign-cookies": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Greedy",
+      "Sorting",
+      "Quicksort"
     ]
   },
   "average-of-levels-in-binary-tree": {
@@ -91,6 +126,13 @@
     "difficulty": "Easy",
     "topics": [
       "Database"
+    ]
+  },
+  "base-7": {
+    "difficulty": "Easy",
+    "topics": [
+      "Math",
+      "String"
     ]
   },
   "baseball-game": {
@@ -162,6 +204,22 @@
       "Tree",
       "Depth-First Search",
       "Binary Tree"
+    ]
+  },
+  "binary-tree-tilt": {
+    "difficulty": "Easy",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree",
+      "DP on Trees"
+    ]
+  },
+  "can-place-flowers": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Greedy"
     ]
   },
   "candy": {
@@ -255,6 +313,12 @@
       "Binary Tree"
     ]
   },
+  "count-salary-categories": {
+    "difficulty": "Medium",
+    "topics": [
+      "Database"
+    ]
+  },
   "customer-placing-the-largest-number-of-orders": {
     "difficulty": "Easy",
     "topics": [
@@ -310,6 +374,21 @@
       "Database"
     ]
   },
+  "detect-capital": {
+    "difficulty": "Easy",
+    "topics": [
+      "String"
+    ]
+  },
+  "diameter-of-binary-tree": {
+    "difficulty": "Easy",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree",
+      "DP on Trees"
+    ]
+  },
   "distribute-candies": {
     "difficulty": "Easy",
     "topics": [
@@ -355,6 +434,22 @@
       "String"
     ]
   },
+  "fibonacci-number": {
+    "difficulty": "Easy",
+    "topics": [
+      "Math",
+      "Dynamic Programming",
+      "Recursion",
+      "Memoization"
+    ]
+  },
+  "find-all-numbers-disappeared-in-an-array": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ]
+  },
   "find-books-with-no-available-copies": {
     "difficulty": "Easy",
     "topics": [
@@ -378,6 +473,15 @@
     "difficulty": "Easy",
     "topics": [
       "Database"
+    ]
+  },
+  "find-mode-in-binary-search-tree": {
+    "difficulty": "Easy",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Search Tree",
+      "Binary Tree"
     ]
   },
   "find-students-who-improved": {
@@ -554,9 +658,26 @@
       "Dynamic Programming"
     ]
   },
+  "island-perimeter": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Matrix"
+    ]
+  },
   "isomorphic-strings": {
     "difficulty": "Easy",
     "topics": [
+      "Hash Table",
+      "String"
+    ]
+  },
+  "keyboard-row": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
       "Hash Table",
       "String"
     ]
@@ -616,6 +737,16 @@
       "Array"
     ]
   },
+  "longest-harmonious-subsequence": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Sliding Window",
+      "Sorting",
+      "Counting"
+    ]
+  },
   "longest-palindrome": {
     "difficulty": "Easy",
     "topics": [
@@ -639,6 +770,12 @@
       "Hash Table",
       "String",
       "Sliding Window"
+    ]
+  },
+  "longest-uncommon-subsequence-i": {
+    "difficulty": "Easy",
+    "topics": [
+      "String"
     ]
   },
   "lru-cache": {
@@ -673,6 +810,19 @@
       "Database"
     ]
   },
+  "max-consecutive-ones": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array"
+    ]
+  },
+  "maximum-average-subarray-i": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Sliding Window"
+    ]
+  },
   "maximum-candies-you-can-get-from-boxes": {
     "difficulty": "Hard",
     "topics": [
@@ -690,6 +840,22 @@
       "Binary Tree"
     ]
   },
+  "maximum-depth-of-n-ary-tree": {
+    "difficulty": "Easy",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search"
+    ]
+  },
+  "maximum-product-of-three-numbers": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Math",
+      "Sorting"
+    ]
+  },
   "merge-sorted-array": {
     "difficulty": "Easy",
     "topics": [
@@ -705,6 +871,16 @@
       "Recursion"
     ]
   },
+  "minimum-absolute-difference-in-bst": {
+    "difficulty": "Easy",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Search Tree",
+      "Binary Tree"
+    ]
+  },
   "minimum-depth-of-binary-tree": {
     "difficulty": "Easy",
     "topics": [
@@ -712,6 +888,14 @@
       "Depth-First Search",
       "Breadth-First Search",
       "Binary Tree"
+    ]
+  },
+  "minimum-index-sum-of-two-lists": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String"
     ]
   },
   "minimum-window-substring": {
@@ -752,6 +936,22 @@
       "Database"
     ]
   },
+  "n-ary-tree-postorder-traversal": {
+    "difficulty": "Easy",
+    "topics": [
+      "Stack",
+      "Tree",
+      "Depth-First Search"
+    ]
+  },
+  "n-ary-tree-preorder-traversal": {
+    "difficulty": "Easy",
+    "topics": [
+      "Stack",
+      "Tree",
+      "Depth-First Search"
+    ]
+  },
   "next-greater-element-i": {
     "difficulty": "Easy",
     "topics": [
@@ -782,6 +982,13 @@
     "difficulty": "Medium",
     "topics": [
       "Database"
+    ]
+  },
+  "number-of-1-bits": {
+    "difficulty": "Easy",
+    "topics": [
+      "Divide and Conquer",
+      "Bit Manipulation"
     ]
   },
   "number-of-segments-in-a-string": {
@@ -861,6 +1068,13 @@
       "Recursion"
     ]
   },
+  "power-of-three": {
+    "difficulty": "Easy",
+    "topics": [
+      "Math",
+      "Recursion"
+    ]
+  },
   "power-of-two": {
     "difficulty": "Easy",
     "topics": [
@@ -905,6 +1119,13 @@
       "Database"
     ]
   },
+  "range-addition-ii": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Math"
+    ]
+  },
   "range-sum-query-immutable": {
     "difficulty": "Easy",
     "topics": [
@@ -937,6 +1158,14 @@
     "difficulty": "Easy",
     "topics": [
       "Database"
+    ]
+  },
+  "relative-ranks": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Sorting",
+      "Heap (Priority Queue)"
     ]
   },
   "remove-duplicates-from-sorted-array": {
@@ -988,6 +1217,14 @@
       "Database"
     ]
   },
+  "reshape-the-matrix": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Matrix",
+      "Simulation"
+    ]
+  },
   "reverse-integer": {
     "difficulty": "Medium",
     "topics": [
@@ -1008,7 +1245,21 @@
       "String"
     ]
   },
+  "reverse-string-ii": {
+    "difficulty": "Easy",
+    "topics": [
+      "Two Pointers",
+      "String"
+    ]
+  },
   "reverse-vowels-of-a-string": {
+    "difficulty": "Easy",
+    "topics": [
+      "Two Pointers",
+      "String"
+    ]
+  },
+  "reverse-words-in-a-string-iii": {
     "difficulty": "Easy",
     "topics": [
       "Two Pointers",
@@ -1092,11 +1343,26 @@
       "Binary Tree"
     ]
   },
+  "set-mismatch": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Bit Manipulation",
+      "Sorting"
+    ]
+  },
   "single-number": {
     "difficulty": "Easy",
     "topics": [
       "Array",
       "Bit Manipulation"
+    ]
+  },
+  "student-attendance-record-i": {
+    "difficulty": "Easy",
+    "topics": [
+      "String"
     ]
   },
   "students-and-examinations": {
@@ -1122,6 +1388,12 @@
       "Depth-First Search",
       "Breadth-First Search",
       "Binary Tree"
+    ]
+  },
+  "summary-ranges": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array"
     ]
   },
   "swap-nodes-in-pairs": {
@@ -1157,6 +1429,26 @@
       "Counting"
     ]
   },
+  "teemo-attacking": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Simulation"
+    ]
+  },
+  "the-number-of-employees-which-report-to-each-employee": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "third-maximum-number": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Sorting"
+    ]
+  },
   "to-lower-case": {
     "difficulty": "Easy",
     "topics": [
@@ -1164,6 +1456,18 @@
     ]
   },
   "top-travellers": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
+  "tree-node": {
+    "difficulty": "Medium",
+    "topics": [
+      "Database"
+    ]
+  },
+  "triangle-judgement": {
     "difficulty": "Easy",
     "topics": [
       "Database"

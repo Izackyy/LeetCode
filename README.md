@@ -7,64 +7,69 @@
 ### Difficulty
 | Difficulty | Count |
 | --- | --- |
-| Easy | 133 |
-| Medium | 35 |
+| Easy | 169 |
+| Medium | 39 |
 | Hard | 5 |
-| **Total** | 173 |
+| **Total** | 213 |
 
 ### Languages
 | Language | Count |
 | --- | --- |
 | C | 1 |
-| C++ | 73 |
+| C++ | 109 |
 | Python | 35 |
-| SQL | 64 |
+| SQL | 68 |
 
 ### Topics by Language
 
 - C Array: 1
 - C String: 1
-- C++ Array: 22
+- C++ Array: 42
 - C++ Backtracking: 2
 - C++ Binary Search: 6
-- C++ Binary Search Tree: 2
-- C++ Binary Tree: 15
-- C++ Bit Manipulation: 6
-- C++ Boyerâ€“Moore Majority Vote Algorithm: 1
-- C++ Boyerâ€“Moore String-Search Algorithm: 1
+- C++ Binary Search Tree: 4
+- C++ Binary Tree: 19
+- C++ Bit Manipulation: 8
+- C++ Boyer–Moore Majority Vote Algorithm: 1
+- C++ Boyer–Moore String-Search Algorithm: 1
 - C++ Bracket Sequences: 2
 - C++ Brainteaser: 1
-- C++ Breadth-First Search: 8
-- C++ Counting: 1
-- C++ Depth-First Search: 13
+- C++ Breadth-First Search: 11
+- C++ Counting: 2
+- C++ Counting Sort: 1
+- C++ DP on Trees: 2
+- C++ Depth-First Search: 21
 - C++ Design: 3
-- C++ Divide and Conquer: 2
-- C++ Dynamic Programming: 5
+- C++ Divide and Conquer: 3
+- C++ Dynamic Programming: 6
 - C++ Floyd's Cycle Finding Algorithm: 1
 - C++ Game Theory: 1
-- C++ Greedy: 1
-- C++ Hash Table: 13
+- C++ Greedy: 4
+- C++ Hash Table: 18
+- C++ Heap (Priority Queue): 1
 - C++ Impartial Game: 1
 - C++ Interactive: 1
-- C++ Knuthâ€“Morrisâ€“Pratt Algorithm: 1
+- C++ Knuth–Morris–Pratt Algorithm: 1
 - C++ Linked List: 9
-- C++ Math: 14
-- C++ Memoization: 1
+- C++ Math: 19
+- C++ Matrix: 2
+- C++ Memoization: 2
 - C++ Minimax: 1
 - C++ Nim Game: 1
 - C++ Number Theory: 1
 - C++ Prefix Sum: 1
 - C++ Queue: 2
-- C++ Recursion: 7
-- C++ Simulation: 3
-- C++ Sliding Window: 1
-- C++ Sorting: 8
-- C++ Stack: 7
-- C++ String: 19
+- C++ Quicksort: 1
+- C++ Recursion: 9
+- C++ Simulation: 5
+- C++ Sliding Window: 3
+- C++ Sorting: 17
+- C++ Stack: 9
+- C++ String: 27
 - C++ String Matching: 3
-- C++ Tree: 15
+- C++ Tree: 22
 - C++ Trie: 1
-- C++ Two Pointers: 18
+- C++ Two Pointers: 23
 - C++ Z Algorithm: 1
 - Python Array: 13
 - Python Backtracking: 1
@@ -82,7 +87,7 @@
 - Python Hash Function: 1
 - Python Hash Table: 12
 - Python Heap (Priority Queue): 1
-- Python Knuthâ€“Morrisâ€“Pratt Algorithm: 1
+- Python Knuth–Morris–Pratt Algorithm: 1
 - Python Linked List: 2
 - Python Manacher: 1
 - Python Math: 2
@@ -99,7 +104,7 @@
 - Python Tree: 3
 - Python Two Pointers: 4
 - Python Z Algorithm: 1
-- SQL Database: 63
+- SQL Database: 67
 
 <!---LeetCode Stats End-->
 
