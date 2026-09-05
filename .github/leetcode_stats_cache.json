@@ -657,6 +657,14 @@
       "Database"
     ]
   },
+  "maximum-candies-you-can-get-from-boxes": {
+    "difficulty": "Hard",
+    "topics": [
+      "Array",
+      "Breadth-First Search",
+      "Graph Theory"
+    ]
+  },
   "maximum-depth-of-binary-tree": {
     "difficulty": "Easy",
     "topics": [
