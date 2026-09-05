@@ -319,6 +319,16 @@
       "Database"
     ]
   },
+  "course-schedule": {
+    "difficulty": "Medium",
+    "topics": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory",
+      "Topological Sort",
+      "Directed Acyclic Graph"
+    ]
+  },
   "customer-placing-the-largest-number-of-orders": {
     "difficulty": "Easy",
     "topics": [
