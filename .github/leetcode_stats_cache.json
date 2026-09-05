@@ -593,6 +593,15 @@
       "Greedy"
     ]
   },
+  "longest-palindromic-substring": {
+    "difficulty": "Medium",
+    "topics": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming",
+      "Manacher"
+    ]
+  },
   "longest-substring-without-repeating-characters": {
     "difficulty": "Medium",
     "topics": [
