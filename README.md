@@ -207,6 +207,7 @@
 | [0682-baseball-game](https://github.com/Izackyy/LeetCode/tree/main/Python/0682-baseball-game/) | Easy |
 | [0697-degree-of-an-array](https://github.com/Izackyy/LeetCode/tree/main/Python/0697-degree-of-an-array/) | Easy |
 | [0704-binary-search](https://github.com/Izackyy/LeetCode/tree/main/Python/0704-binary-search/) | Easy |
+| [0994-rotting-oranges](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0994-rotting-oranges/) | Medium |
 | [1298-maximum-candies-you-can-get-from-boxes](https://github.com/Izackyy/LeetCode/tree/main/Python/1298-maximum-candies-you-can-get-from-boxes/) | Hard |
 ## Stack
 | Problem Name | Difficulty |
@@ -247,11 +248,13 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Izackyy/LeetCode/tree/main/Python/0637-average-of-levels-in-binary-tree/) | Easy |
+| [0994-rotting-oranges](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0994-rotting-oranges/) | Medium |
 | [1298-maximum-candies-you-can-get-from-boxes](https://github.com/Izackyy/LeetCode/tree/main/Python/1298-maximum-candies-you-can-get-from-boxes/) | Hard |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0661-image-smoother](https://github.com/Izackyy/LeetCode/tree/main/Python/0661-image-smoother/) | Easy |
+| [0994-rotting-oranges](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0994-rotting-oranges/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
