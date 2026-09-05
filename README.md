@@ -145,12 +145,14 @@
 | [0409-longest-palindrome](https://github.com/Izackyy/LeetCode/tree/main/Python/0409-longest-palindrome/) | Easy |
 | [0496-next-greater-element-i](https://github.com/Izackyy/LeetCode/tree/main/Python/0496-next-greater-element-i/) | Easy |
 | [0575-distribute-candies](https://github.com/Izackyy/LeetCode/tree/main/Python/0575-distribute-candies/) | Easy |
+| [0621-task-scheduler](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0621-task-scheduler/) | Medium |
 | [0697-degree-of-an-array](https://github.com/Izackyy/LeetCode/tree/main/Python/0697-degree-of-an-array/) | Easy |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0383-ransom-note](https://github.com/Izackyy/LeetCode/tree/main/Python/0383-ransom-note/) | Easy |
 | [0387-first-unique-character-in-a-string](https://github.com/Izackyy/LeetCode/tree/main/Python/0387-first-unique-character-in-a-string/) | Easy |
+| [0621-task-scheduler](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0621-task-scheduler/) | Medium |
 ## Queue
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -163,6 +165,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0389-find-the-difference](https://github.com/Izackyy/LeetCode/tree/main/Python/0389-find-the-difference/) | Easy |
+| [0621-task-scheduler](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0621-task-scheduler/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -180,6 +183,7 @@
 | ------- | ------- |
 | [0135-candy](https://github.com/Izackyy/LeetCode/tree/main/Python/0135-candy/) | Hard |
 | [0409-longest-palindrome](https://github.com/Izackyy/LeetCode/tree/main/Python/0409-longest-palindrome/) | Easy |
+| [0621-task-scheduler](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0621-task-scheduler/) | Medium |
 | [0680-valid-palindrome-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/0680-valid-palindrome-ii/) | Easy |
 ## Math
 | Problem Name | Difficulty |
@@ -207,6 +211,7 @@
 | [0135-candy](https://github.com/Izackyy/LeetCode/tree/main/Python/0135-candy/) | Hard |
 | [0496-next-greater-element-i](https://github.com/Izackyy/LeetCode/tree/main/Python/0496-next-greater-element-i/) | Easy |
 | [0575-distribute-candies](https://github.com/Izackyy/LeetCode/tree/main/Python/0575-distribute-candies/) | Easy |
+| [0621-task-scheduler](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0621-task-scheduler/) | Medium |
 | [0661-image-smoother](https://github.com/Izackyy/LeetCode/tree/main/Python/0661-image-smoother/) | Easy |
 | [0674-longest-continuous-increasing-subsequence](https://github.com/Izackyy/LeetCode/tree/main/Python/0674-longest-continuous-increasing-subsequence/) | Easy |
 | [0682-baseball-game](https://github.com/Izackyy/LeetCode/tree/main/Python/0682-baseball-game/) | Easy |
@@ -300,4 +305,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0146-lru-cache](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0146-lru-cache/) | Medium |
+## Heap (Priority Queue)
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0621-task-scheduler](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0621-task-scheduler/) | Medium |
 <!---LeetCode Topics End-->
