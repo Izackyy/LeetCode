@@ -303,6 +303,13 @@
       "Database"
     ]
   },
+  "distribute-candies": {
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ]
+  },
   "duplicate-emails": {
     "difficulty": "Easy",
     "topics": [
