@@ -641,6 +641,15 @@
       "Sliding Window"
     ]
   },
+  "lru-cache": {
+    "difficulty": "Medium",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List"
+    ]
+  },
   "majority-element": {
     "difficulty": "Easy",
     "topics": [
