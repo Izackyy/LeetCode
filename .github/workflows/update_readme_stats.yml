@@ -233,11 +233,13 @@ jobs:
               git('add README.md .github/leetcode_stats_cache.json')
               git('config user.name "github-actions[bot]"')
               git('config user.email "github-actions[bot]@users.noreply.github.com"')
-              # Reuse the triggering commit's message and authorship (-C HEAD)
-              # instead of writing our own — a distinct "chore: update
-              # README statistics" commit becomes the file's "last commit"
-              # in GitHub's UI and buries the original commit's message.
-              git('commit -C HEAD')
+              # Unlike the per-question workflows, this commit's own message
+              # IS the accurate one: root README.md is a repo-wide stats
+              # aggregate, unrelated to whichever single submission triggered
+              # the push. Reusing -C HEAD here showed misleading messages
+              # like a random problem's "Time: ... - LeetHub" line as the
+              # README's own last commit.
+              git('commit -m "chore: update README statistics"')
 
               # Other workflows may push to main concurrently; rebase and retry.
               pushed = False
