@@ -101,6 +101,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Izackyy/LeetCode/tree/main/Python/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0005-longest-palindromic-substring](https://github.com/Izackyy/LeetCode/tree/main/Python/0005-longest-palindromic-substring/) | Medium |
 | [0383-ransom-note](https://github.com/Izackyy/LeetCode/tree/main/Python/0383-ransom-note/) | Easy |
 | [0387-first-unique-character-in-a-string](https://github.com/Izackyy/LeetCode/tree/main/Python/0387-first-unique-character-in-a-string/) | Easy |
 | [0389-find-the-difference](https://github.com/Izackyy/LeetCode/tree/main/Python/0389-find-the-difference/) | Easy |
@@ -152,12 +153,14 @@
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Izackyy/LeetCode/tree/main/Python/0005-longest-palindromic-substring/) | Medium |
 | [0392-is-subsequence](https://github.com/Izackyy/LeetCode/tree/main/Python/0392-is-subsequence/) | Easy |
 | [0680-valid-palindrome-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/0680-valid-palindrome-ii/) | Easy |
 | [0696-count-binary-substrings](https://github.com/Izackyy/LeetCode/tree/main/Python/0696-count-binary-substrings/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Izackyy/LeetCode/tree/main/Python/0005-longest-palindromic-substring/) | Medium |
 | [0392-is-subsequence](https://github.com/Izackyy/LeetCode/tree/main/Python/0392-is-subsequence/) | Easy |
 ## Greedy
 | Problem Name | Difficulty |
@@ -242,4 +245,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Izackyy/LeetCode/tree/main/Python/0003-longest-substring-without-repeating-characters/) | Medium |
+## Manacher
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Izackyy/LeetCode/tree/main/Python/0005-longest-palindromic-substring/) | Medium |
 <!---LeetCode Topics End-->
