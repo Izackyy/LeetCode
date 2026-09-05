@@ -714,6 +714,14 @@
       "Binary Tree"
     ]
   },
+  "minimum-window-substring": {
+    "difficulty": "Hard",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ]
+  },
   "missing-number": {
     "difficulty": "Easy",
     "topics": [
