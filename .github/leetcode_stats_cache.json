@@ -593,6 +593,14 @@
       "Greedy"
     ]
   },
+  "longest-substring-without-repeating-characters": {
+    "difficulty": "Medium",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ]
+  },
   "majority-element": {
     "difficulty": "Easy",
     "topics": [
