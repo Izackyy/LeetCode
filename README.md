@@ -8,16 +8,16 @@
 | Difficulty | Count |
 | --- | --- |
 | Easy | 131 |
-| Medium | 29 |
+| Medium | 30 |
 | Hard | 2 |
-| **Total** | 162 |
+| **Total** | 163 |
 
 ### Languages
 | Language | Count |
 | --- | --- |
 | C | 1 |
 | C++ | 73 |
-| Python | 25 |
+| Python | 26 |
 | SQL | 64 |
 
 ### Topics by Language
@@ -79,11 +79,13 @@
 - Python Hash Function: 1
 - Python Hash Table: 8
 - Python Knuth–Morris–Pratt Algorithm: 1
+- Python Linked List: 1
 - Python Manacher: 1
 - Python Math: 2
 - Python Matrix: 1
 - Python Monotonic Stack: 1
 - Python Queue: 1
+- Python Recursion: 1
 - Python Simulation: 3
 - Python Sliding Window: 1
 - Python Sorting: 1

@@ -1061,6 +1061,13 @@
       "Binary Tree"
     ]
   },
+  "swap-nodes-in-pairs": {
+    "difficulty": "Medium",
+    "topics": [
+      "Linked List",
+      "Recursion"
+    ]
+  },
   "swap-sex-of-employees": {
     "difficulty": "Easy",
     "topics": [
