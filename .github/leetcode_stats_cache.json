@@ -367,6 +367,13 @@
       "Database"
     ]
   },
+  "find-first-and-last-position-of-element-in-sorted-array": {
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Binary Search"
+    ]
+  },
   "find-followers-count": {
     "difficulty": "Easy",
     "topics": [
