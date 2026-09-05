@@ -9,11 +9,19 @@
 # below — so they're let through unchanged rather than rejected.
 
 commit_msg_file="$1"
+commit_source="$2"
 content=$(grep -v '^#' "$commit_msg_file")
 first_line=$(printf '%s\n' "$content" | sed -n '1p')
 second_line=$(printf '%s\n' "$content" | sed -n '2p')
 
+# Merges and squashes get git-generated subjects ("Merge branch ...");
+# never reformat those.
+case "$commit_source" in
+  merge|squash) exit 0 ;;
+esac
+
 case "$first_line" in
+  Merge\ branch\ *|Merge\ pull\ request\ *|Merge\ remote-tracking\ branch\ *) exit 0 ;;
   Time:*-\ LeetHub) exit 0 ;;
   Add\ *\ to\ topics.) exit 0 ;;
   Added\ README.md\ file\ for\ *) exit 0 ;;
