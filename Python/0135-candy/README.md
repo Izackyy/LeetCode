@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/candy">135. Candy</a></h2><h3>Hard</h3><hr><p>There are <code>n</code> children standing in a line.</p>
+<h2><a href="https://leetcode.com/problems/candy">135. Candy</a></h2> <img src='https://img.shields.io/badge/Difficulty-Hard-red' alt='Difficulty: Hard' /><hr><p>There are <code>n</code> children standing in a line.</p>
 
 <p>Each child is assigned a rating value given in the integer array <code>ratings</code>.</p>
 
