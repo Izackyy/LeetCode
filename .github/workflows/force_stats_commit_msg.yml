@@ -1,0 +1,89 @@
+name: Force stats commit message
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  force-stats-msg:
+    runs-on: ubuntu-latest
+    # Skip runs triggered by this workflow's own commits
+    if: ${{ github.actor != 'github-actions[bot]' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Reword trailing "Add * to topics." commit back to its stats message
+        run: |
+          python3 << 'PYEOF'
+          import subprocess, re
+
+          def run(cmd):
+              return subprocess.run(cmd, shell=True, capture_output=True, text=True)
+
+          def git(cmd):
+              r = run(f"git {cmd}")
+              if r.returncode != 0:
+                  print(f"git {cmd} failed: {r.stderr}")
+              return r
+
+          # LeetHub sometimes fires a 3rd commit adding topic tags *after* its
+          # own stats commit for a problem. That extra commit then becomes the
+          # newest commit touching the folder, burying the Time/Space stats
+          # line under a "Add X to topics." message in GitHub's file view.
+          # This walks back to that folder's real stats commit and reuses its
+          # message + authorship (-C), so the stats line always wins.
+          TOPICS_RE = re.compile(r'^Add .+ to topics\.$')
+          STATS_RE = re.compile(r'^Time: .+ - (LeetHub|LeetSync)$')
+
+          def head_info():
+              sha = git('rev-parse HEAD').stdout.strip()
+              subject = git('log -1 --format=%s HEAD').stdout.strip()
+              files = git('diff-tree --no-commit-id --name-only -r HEAD').stdout.strip().splitlines()
+              return sha, subject, files
+
+          fixed = False
+          for attempt in range(5):
+              git('fetch origin main')
+              git('reset --hard origin/main')
+              sha, subject, files = head_info()
+
+              if not TOPICS_RE.match(subject):
+                  print("HEAD is not a topics commit, nothing to do.")
+                  break
+
+              readme = next((f for f in files if f.endswith("README.md")), None)
+              if not readme:
+                  print("Topics commit touched no README.md, skipping.")
+                  break
+              folder = readme.rsplit('/', 1)[0]
+
+              log = git(f'log --format=%H%x09%s HEAD^ -- "{folder}"').stdout.strip().splitlines()
+              stats_sha = None
+              for line in log:
+                  h, _, msg = line.partition('\t')
+                  if STATS_RE.match(msg):
+                      stats_sha = h
+                      break
+
+              if not stats_sha:
+                  print(f"No stats commit found for {folder}, skipping.")
+                  break
+
+              git('config user.name "github-actions[bot]"')
+              git('config user.email "github-actions[bot]@users.noreply.github.com"')
+              git(f'commit --amend -C {stats_sha}')
+
+              if git(f'push --force-with-lease=main:{sha} origin main').returncode == 0:
+                  print(f"Reworded topics commit for {folder} back to its stats message.")
+                  fixed = True
+                  break
+              print(f"Push race detected, retrying (attempt {attempt + 1})...")
+
+          if not fixed and attempt == 4:
+              print("Failed to force stats message after retries.")
+          PYEOF
