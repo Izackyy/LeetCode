@@ -197,6 +197,7 @@
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/Izackyy/LeetCode/tree/main/Python/0033-search-in-rotated-sorted-array/) | Medium |
 | [0135-candy](https://github.com/Izackyy/LeetCode/tree/main/Python/0135-candy/) | Hard |
 | [0496-next-greater-element-i](https://github.com/Izackyy/LeetCode/tree/main/Python/0496-next-greater-element-i/) | Easy |
 | [0575-distribute-candies](https://github.com/Izackyy/LeetCode/tree/main/Python/0575-distribute-candies/) | Easy |
@@ -253,6 +254,7 @@
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/Izackyy/LeetCode/tree/main/Python/0033-search-in-rotated-sorted-array/) | Medium |
 | [0704-binary-search](https://github.com/Izackyy/LeetCode/tree/main/Python/0704-binary-search/) | Easy |
 ## Sliding Window
 | Problem Name | Difficulty |
