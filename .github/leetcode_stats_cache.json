@@ -550,6 +550,14 @@
       "String"
     ]
   },
+  "letter-combinations-of-a-phone-number": {
+    "difficulty": "Medium",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Backtracking"
+    ]
+  },
   "license-key-formatting": {
     "difficulty": "Easy",
     "topics": [
