@@ -31,14 +31,17 @@ jobs:
                   print(f"git {cmd} failed: {r.stderr}")
               return r
 
-          # LeetHub sometimes fires a 3rd commit adding topic tags *after* its
-          # own stats commit for a problem. That extra commit then becomes the
-          # newest commit touching the folder, burying the Time/Space stats
-          # line under a "Add X to topics." message in GitHub's file view.
-          # This walks back to that folder's real stats commit and reuses its
-          # message + authorship (-C), so the stats line always wins.
-          TOPICS_RE = re.compile(r'^Add .+ to topics\.$')
+          # LeetHub and our own bot workflows can leave a folder's *current*
+          # last commit as something other than its real Time/Space stats
+          # line (a "Create readme"/"Add X to topics." replay, a stale -C
+          # HEAD reuse from a race with a concurrent workflow run, etc). This
+          # is a general safety net: whenever HEAD is a normal single-problem
+          # commit (touches one folder, <=2 files - never the old 60-70 file
+          # bulk-rename commits, which are intentionally left alone) and its
+          # own message isn't the stats line, but a real stats commit exists
+          # earlier in that folder's history, reword HEAD to reuse it (-C).
           STATS_RE = re.compile(r'^Time: .+ - (LeetHub|LeetSync)$')
+          MAX_FILES = 3
 
           def head_info():
               sha = git('rev-parse HEAD').stdout.strip()
@@ -52,13 +55,17 @@ jobs:
               git('reset --hard origin/main')
               sha, subject, files = head_info()
 
-              if not TOPICS_RE.match(subject):
-                  print("HEAD is not a topics commit, nothing to do.")
+              if STATS_RE.match(subject):
+                  print("HEAD already shows its stats message, nothing to do.")
+                  break
+
+              if not files or len(files) > MAX_FILES:
+                  print("HEAD is not a single-problem commit, skipping.")
                   break
 
               readme = next((f for f in files if f.endswith("README.md")), None)
               if not readme:
-                  print("Topics commit touched no README.md, skipping.")
+                  print("HEAD touched no README.md, skipping.")
                   break
               folder = readme.rsplit('/', 1)[0]
 
@@ -74,12 +81,16 @@ jobs:
                   print(f"No stats commit found for {folder}, skipping.")
                   break
 
+              if stats_sha == sha:
+                  print("HEAD is already the stats commit, nothing to do.")
+                  break
+
               git('config user.name "github-actions[bot]"')
               git('config user.email "github-actions[bot]@users.noreply.github.com"')
               git(f'commit --amend -C {stats_sha}')
 
               if git(f'push --force-with-lease=main:{sha} origin main').returncode == 0:
-                  print(f"Reworded topics commit for {folder} back to its stats message.")
+                  print(f"Reworded HEAD commit for {folder} back to its stats message.")
                   fixed = True
                   break
               print(f"Push race detected, retrying (attempt {attempt + 1})...")

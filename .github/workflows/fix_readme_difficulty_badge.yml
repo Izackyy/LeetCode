@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 0
 
       - name: Convert LeetHub-style difficulty tags to LeetSync-style badges
         run: |
@@ -45,52 +45,62 @@ jobs:
               badge = f"<img src='https://img.shields.io/badge/Difficulty-{difficulty}-{color}' alt='Difficulty: {difficulty}' />"
               return f"</h2> {badge}<hr>"
 
-          changed_files = []
+          git('config user.name "github-actions[bot]"')
+          git('config user.email "github-actions[bot]@users.noreply.github.com"')
 
-          for dirpath, dirnames, filenames in os.walk("."):
-              dirnames[:] = [d for d in dirnames if d not in (".git", ".github") and not d.startswith(".")]
-              if dirpath == ".":
-                  # Skip the repo-root README.md (stats file, not a problem README)
-                  continue
-              if "README.md" not in filenames:
-                  continue
+          # LeetHub often fires several follow-up commits (stats, then topics)
+          # right after the initial "Create readme" push. If we -C HEAD off
+          # the commit that triggered this run, by the time we actually push
+          # those later commits may already be on origin/main, and our stale
+          # reused message ends up burying them as the folder's "last commit".
+          # So re-sync to the true tip immediately before every commit/push
+          # attempt, not just once at checkout.
+          pushed = False
+          for attempt in range(5):
+              git('fetch origin main')
+              git('reset --hard origin/main')
 
-              path = os.path.join(dirpath, "README.md")
-              with open(path, encoding="utf-8") as f:
-                  content = f.read()
+              changed_files = []
+              for dirpath, dirnames, filenames in os.walk("."):
+                  dirnames[:] = [d for d in dirnames if d not in (".git", ".github") and not d.startswith(".")]
+                  if dirpath == ".":
+                      # Skip the repo-root README.md (stats file, not a problem README)
+                      continue
+                  if "README.md" not in filenames:
+                      continue
 
-              new_content = PATTERN.sub(to_badge, content)
-              if new_content != content:
-                  with open(path, 'w', encoding="utf-8") as f:
-                      f.write(new_content)
-                  git(f'add "{path}"')
-                  changed_files.append(path)
+                  path = os.path.join(dirpath, "README.md")
+                  with open(path, encoding="utf-8") as f:
+                      content = f.read()
 
-          if changed_files:
+                  new_content = PATTERN.sub(to_badge, content)
+                  if new_content != content:
+                      with open(path, 'w', encoding="utf-8") as f:
+                          f.write(new_content)
+                      git(f'add "{path}"')
+                      changed_files.append(path)
+
+              if not changed_files:
+                  print("No changes needed.")
+                  pushed = True
+                  break
+
               print(f"Fixed difficulty badge in {len(changed_files)} file(s):")
               for p in changed_files:
                   print(f"  {p}")
 
-              git('config user.name "github-actions[bot]"')
-              git('config user.email "github-actions[bot]@users.noreply.github.com"')
-              # Reuse the triggering commit's message and authorship (-C HEAD)
-              # instead of writing our own — a distinct "chore: normalize..."
-              # commit becomes the file's "last commit" in GitHub's UI and
-              # buries LeetHub's own message (e.g. its Time/Space stats line).
+              # Reuse the current (just-synced) tip commit's message and
+              # authorship instead of writing our own — a distinct
+              # "chore: normalize..." commit becomes the file's "last commit"
+              # in GitHub's UI and buries LeetHub's own message.
               git('commit -C HEAD')
 
-              # Other workflows may push to main concurrently; rebase and retry.
-              pushed = False
-              for attempt in range(5):
-                  if git('push').returncode == 0:
-                      pushed = True
-                      break
-                  print(f"Push failed, retrying with rebase (attempt {attempt + 1})...")
-                  git('pull --rebase origin main')
-              if not pushed:
-                  print("Failed to push after retries.")
-              else:
+              if git('push').returncode == 0:
+                  pushed = True
                   print("Changes committed and pushed.")
-          else:
-              print("No changes needed.")
+                  break
+              print(f"Push failed, retrying (attempt {attempt + 1})...")
+
+          if not pushed:
+              print("Failed to push after retries.")
           PYEOF
