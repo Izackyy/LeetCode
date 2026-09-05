@@ -1032,6 +1032,13 @@
       "Binary Tree"
     ]
   },
+  "search-in-rotated-sorted-array": {
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Binary Search"
+    ]
+  },
   "search-insert-position": {
     "difficulty": "Easy",
     "topics": [
