@@ -1146,6 +1146,17 @@
       "Binary Tree"
     ]
   },
+  "task-scheduler": {
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Greedy",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Counting"
+    ]
+  },
   "to-lower-case": {
     "difficulty": "Easy",
     "topics": [
