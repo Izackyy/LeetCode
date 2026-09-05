@@ -164,6 +164,13 @@
       "Binary Tree"
     ]
   },
+  "candy": {
+    "difficulty": "Hard",
+    "topics": [
+      "Array",
+      "Greedy"
+    ]
+  },
   "check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence": {
     "difficulty": "Easy",
     "topics": [
