@@ -110,6 +110,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/Izackyy/LeetCode/tree/main/Python/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0005-longest-palindromic-substring](https://github.com/Izackyy/LeetCode/tree/main/Python/0005-longest-palindromic-substring/) | Medium |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Izackyy/LeetCode/tree/main/Python/0017-letter-combinations-of-a-phone-number/) | Medium |
+| [0076-minimum-window-substring](https://github.com/Izackyy/LeetCode/tree/main/Python/Hard/0076-minimum-window-substring/) | Hard |
 | [0383-ransom-note](https://github.com/Izackyy/LeetCode/tree/main/Python/0383-ransom-note/) | Easy |
 | [0387-first-unique-character-in-a-string](https://github.com/Izackyy/LeetCode/tree/main/Python/0387-first-unique-character-in-a-string/) | Easy |
 | [0389-find-the-difference](https://github.com/Izackyy/LeetCode/tree/main/Python/0389-find-the-difference/) | Easy |
@@ -136,6 +137,7 @@
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Izackyy/LeetCode/tree/main/Python/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Izackyy/LeetCode/tree/main/Python/0017-letter-combinations-of-a-phone-number/) | Medium |
+| [0076-minimum-window-substring](https://github.com/Izackyy/LeetCode/tree/main/Python/Hard/0076-minimum-window-substring/) | Hard |
 | [0146-lru-cache](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0146-lru-cache/) | Medium |
 | [0383-ransom-note](https://github.com/Izackyy/LeetCode/tree/main/Python/0383-ransom-note/) | Easy |
 | [0387-first-unique-character-in-a-string](https://github.com/Izackyy/LeetCode/tree/main/Python/0387-first-unique-character-in-a-string/) | Easy |
@@ -268,6 +270,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Izackyy/LeetCode/tree/main/Python/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0076-minimum-window-substring](https://github.com/Izackyy/LeetCode/tree/main/Python/Hard/0076-minimum-window-substring/) | Hard |
 ## Manacher
 | Problem Name | Difficulty |
 | ------- | ------- |
