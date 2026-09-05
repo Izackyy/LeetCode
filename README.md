@@ -204,6 +204,7 @@
 | [0682-baseball-game](https://github.com/Izackyy/LeetCode/tree/main/Python/0682-baseball-game/) | Easy |
 | [0697-degree-of-an-array](https://github.com/Izackyy/LeetCode/tree/main/Python/0697-degree-of-an-array/) | Easy |
 | [0704-binary-search](https://github.com/Izackyy/LeetCode/tree/main/Python/0704-binary-search/) | Easy |
+| [1298-maximum-candies-you-can-get-from-boxes](https://github.com/Izackyy/LeetCode/tree/main/Python/1298-maximum-candies-you-can-get-from-boxes/) | Hard |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -243,6 +244,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Izackyy/LeetCode/tree/main/Python/0637-average-of-levels-in-binary-tree/) | Easy |
+| [1298-maximum-candies-you-can-get-from-boxes](https://github.com/Izackyy/LeetCode/tree/main/Python/1298-maximum-candies-you-can-get-from-boxes/) | Hard |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -271,4 +273,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0024-swap-nodes-in-pairs](https://github.com/Izackyy/LeetCode/tree/main/Python/0024-swap-nodes-in-pairs/) | Medium |
+## Graph Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1298-maximum-candies-you-can-get-from-boxes](https://github.com/Izackyy/LeetCode/tree/main/Python/1298-maximum-candies-you-can-get-from-boxes/) | Hard |
 <!---LeetCode Topics End-->
