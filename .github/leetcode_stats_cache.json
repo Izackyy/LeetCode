@@ -173,8 +173,10 @@
     ]
   },
   "classes-more-than-5-students": {
-    "difficulty": null,
-    "topics": null
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
   },
   "climbing-stairs": {
     "difficulty": "Easy",
