@@ -172,6 +172,7 @@
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0135-candy](https://github.com/Izackyy/LeetCode/tree/main/Python/0135-candy/) | Hard |
 | [0409-longest-palindrome](https://github.com/Izackyy/LeetCode/tree/main/Python/0409-longest-palindrome/) | Easy |
 | [0680-valid-palindrome-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/0680-valid-palindrome-ii/) | Easy |
 ## Math
@@ -195,6 +196,7 @@
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0135-candy](https://github.com/Izackyy/LeetCode/tree/main/Python/0135-candy/) | Hard |
 | [0496-next-greater-element-i](https://github.com/Izackyy/LeetCode/tree/main/Python/0496-next-greater-element-i/) | Easy |
 | [0575-distribute-candies](https://github.com/Izackyy/LeetCode/tree/main/Python/0575-distribute-candies/) | Easy |
 | [0661-image-smoother](https://github.com/Izackyy/LeetCode/tree/main/Python/0661-image-smoother/) | Easy |
