@@ -137,6 +137,7 @@
 | [0680-valid-palindrome-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/0680-valid-palindrome-ii/) | Easy |
 | [0696-count-binary-substrings](https://github.com/Izackyy/LeetCode/tree/main/Python/0696-count-binary-substrings/) | Easy |
 | [0709-to-lower-case](https://github.com/Izackyy/LeetCode/tree/main/Python/0709-to-lower-case/) | Easy |
+| [1935-maximum-number-of-words-you-can-type](https://github.com/Izackyy/LeetCode/tree/main/Python/Easy/1935-maximum-number-of-words-you-can-type/) | Easy |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -159,6 +160,7 @@
 | [0575-distribute-candies](https://github.com/Izackyy/LeetCode/tree/main/Python/0575-distribute-candies/) | Easy |
 | [0621-task-scheduler](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0621-task-scheduler/) | Medium |
 | [0697-degree-of-an-array](https://github.com/Izackyy/LeetCode/tree/main/Python/0697-degree-of-an-array/) | Easy |
+| [1935-maximum-number-of-words-you-can-type](https://github.com/Izackyy/LeetCode/tree/main/Python/Easy/1935-maximum-number-of-words-you-can-type/) | Easy |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
