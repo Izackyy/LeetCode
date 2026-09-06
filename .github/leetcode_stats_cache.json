@@ -1380,6 +1380,17 @@
       "Bit Manipulation"
     ]
   },
+  "sliding-window-maximum": {
+    "difficulty": "Hard",
+    "topics": [
+      "Array",
+      "Queue",
+      "Sliding Window",
+      "Heap (Priority Queue)",
+      "Monotonic Queue",
+      "Range Minimum/Maximum Query"
+    ]
+  },
   "student-attendance-record-i": {
     "difficulty": "Easy",
     "topics": [
