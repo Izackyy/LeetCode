@@ -655,6 +655,12 @@
       "Two Pointers"
     ]
   },
+  "invalid-tweets": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
   "invert-binary-tree": {
     "difficulty": "Easy",
     "topics": [
