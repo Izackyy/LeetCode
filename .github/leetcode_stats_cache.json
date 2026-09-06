@@ -267,6 +267,12 @@
       "Database"
     ]
   },
+  "confirmation-rate": {
+    "difficulty": "Medium",
+    "topics": [
+      "Database"
+    ]
+  },
   "consecutive-numbers": {
     "difficulty": "Medium",
     "topics": [
