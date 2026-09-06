@@ -1083,6 +1083,12 @@
       "Database"
     ]
   },
+  "odd-and-even-transactions": {
+    "difficulty": "Medium",
+    "topics": [
+      "Database"
+    ]
+  },
   "palindrome-linked-list": {
     "difficulty": "Easy",
     "topics": [
