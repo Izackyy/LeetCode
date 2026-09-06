@@ -272,6 +272,7 @@
 | [0627-swap-sex-of-employees](https://github.com/Izackyy/LeetCode/tree/main/MySQL/0627-swap-sex-of-employees/) | Easy |
 | [1517-find-users-with-valid-e-mails](https://github.com/Izackyy/LeetCode/tree/main/MySQL/Easy/1517-find-users-with-valid-e-mails/) | Easy |
 | [1683-invalid-tweets](https://github.com/Izackyy/LeetCode/tree/main/MySQL/Easy/1683-invalid-tweets/) | Easy |
+| [1795-rearrange-products-table](https://github.com/Izackyy/LeetCode/tree/main/MySQL/Easy/1795-rearrange-products-table/) | Easy |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
