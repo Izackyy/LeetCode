@@ -239,6 +239,12 @@
       "Greedy"
     ]
   },
+  "capital-gainloss": {
+    "difficulty": "Medium",
+    "topics": [
+      "Database"
+    ]
+  },
   "check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence": {
     "difficulty": "Easy",
     "topics": [
