@@ -589,6 +589,12 @@
       "Simulation"
     ]
   },
+  "friend-requests-ii-who-has-the-most-friends": {
+    "difficulty": "Medium",
+    "topics": [
+      "Database"
+    ]
+  },
   "game-play-analysis-i": {
     "difficulty": "Easy",
     "topics": [
