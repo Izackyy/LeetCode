@@ -962,6 +962,17 @@
       "Depth-First Search"
     ]
   },
+  "network-delay-time": {
+    "difficulty": "Medium",
+    "topics": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory",
+      "Heap (Priority Queue)",
+      "Shortest Path",
+      "Dijkstra's Algorithm"
+    ]
+  },
   "next-greater-element-i": {
     "difficulty": "Easy",
     "topics": [
