@@ -12,7 +12,7 @@
 
 <p>Return a list of booleans, one per query (<code>op == 1</code>), in the order they appear.</p>
 
-<p><strong>Edge case:</strong> a query before any box has been created returns <code>False</code> (there is nothing to fit "in all of" boxes when there are none).</p>
+<p><strong>Edge case:</strong> a query before any box has been created returns <code>True</code> (vacuously — the condition "fits in every created box" holds trivially when there are no boxes).</p>
 
 <p><strong>Example:</strong></p>
 <pre>
