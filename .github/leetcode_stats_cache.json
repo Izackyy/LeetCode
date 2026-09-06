@@ -1305,6 +1305,12 @@
       "Simulation"
     ]
   },
+  "restaurant-growth": {
+    "difficulty": "Medium",
+    "topics": [
+      "Database"
+    ]
+  },
   "reverse-integer": {
     "difficulty": "Medium",
     "topics": [
