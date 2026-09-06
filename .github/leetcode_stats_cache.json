@@ -446,6 +446,12 @@
       "Database"
     ]
   },
+  "employees-with-missing-information": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
   "excel-sheet-column-number": {
     "difficulty": "Easy",
     "topics": [
