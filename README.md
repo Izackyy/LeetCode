@@ -270,6 +270,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0627-swap-sex-of-employees](https://github.com/Izackyy/LeetCode/tree/main/MySQL/0627-swap-sex-of-employees/) | Easy |
+| [1517-find-users-with-valid-e-mails](https://github.com/Izackyy/LeetCode/tree/main/MySQL/Easy/1517-find-users-with-valid-e-mails/) | Easy |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
