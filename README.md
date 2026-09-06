@@ -283,6 +283,7 @@
 | [1890-the-latest-login-in-2020](https://github.com/Izackyy/LeetCode/tree/main/MySQL/Easy/1890-the-latest-login-in-2020/) | Easy |
 | [1934-confirmation-rate](https://github.com/Izackyy/LeetCode/tree/main/MySQL/Medium/1934-confirmation-rate/) | Medium |
 | [1965-employees-with-missing-information](https://github.com/Izackyy/LeetCode/tree/main/MySQL/Easy/1965-employees-with-missing-information/) | Easy |
+| [3220-odd-and-even-transactions](https://github.com/Izackyy/LeetCode/tree/main/MySQL/Medium/3220-odd-and-even-transactions/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
