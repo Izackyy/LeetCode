@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/rearrange-products-table">1795. Rearrange Products Table</a></h2><h3>Easy</h3><hr><p>Table: <code>Products</code></p>
+<h2><a href="https://leetcode.com/problems/rearrange-products-table">1795. Rearrange Products Table</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Table: <code>Products</code></p>
 
 <pre>
 +-------------+---------+
