@@ -249,6 +249,7 @@
 | [0572-subtree-of-another-tree](https://github.com/Izackyy/LeetCode/tree/main/Python/0572-subtree-of-another-tree/) | Easy |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Izackyy/LeetCode/tree/main/Python/0637-average-of-levels-in-binary-tree/) | Easy |
 | [0671-second-minimum-node-in-a-binary-tree](https://github.com/Izackyy/LeetCode/tree/main/Python/0671-second-minimum-node-in-a-binary-tree/) | Easy |
+| [0743-network-delay-time](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0743-network-delay-time/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -268,6 +269,7 @@
 | ------- | ------- |
 | [0207-course-schedule](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0207-course-schedule/) | Medium |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Izackyy/LeetCode/tree/main/Python/0637-average-of-levels-in-binary-tree/) | Easy |
+| [0743-network-delay-time](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0743-network-delay-time/) | Medium |
 | [0994-rotting-oranges](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0994-rotting-oranges/) | Medium |
 | [1298-maximum-candies-you-can-get-from-boxes](https://github.com/Izackyy/LeetCode/tree/main/Python/1298-maximum-candies-you-can-get-from-boxes/) | Hard |
 ## Matrix
@@ -307,6 +309,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0207-course-schedule](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0207-course-schedule/) | Medium |
+| [0743-network-delay-time](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0743-network-delay-time/) | Medium |
 | [1298-maximum-candies-you-can-get-from-boxes](https://github.com/Izackyy/LeetCode/tree/main/Python/1298-maximum-candies-you-can-get-from-boxes/) | Hard |
 ## Design
 | Problem Name | Difficulty |
@@ -320,6 +323,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0621-task-scheduler](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0621-task-scheduler/) | Medium |
+| [0743-network-delay-time](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0743-network-delay-time/) | Medium |
 ## Topological Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -328,4 +332,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0207-course-schedule](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0207-course-schedule/) | Medium |
+## Shortest Path
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0743-network-delay-time](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0743-network-delay-time/) | Medium |
+## Dijkstra's Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0743-network-delay-time](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0743-network-delay-time/) | Medium |
 <!---LeetCode Topics End-->
