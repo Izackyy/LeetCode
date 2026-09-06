@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/restaurant-growth">1321. Restaurant Growth</a></h2><h3>Medium</h3><hr><p>Table: <code>Customer</code></p>
+<h2><a href="https://leetcode.com/problems/restaurant-growth">1321. Restaurant Growth</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Table: <code>Customer</code></p>
 
 <pre>
 +---------------+---------+
