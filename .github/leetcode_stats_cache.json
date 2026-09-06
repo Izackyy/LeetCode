@@ -219,6 +219,12 @@
     "difficulty": null,
     "topics": null
   },
+  "calculate-special-bonus": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
   "can-place-flowers": {
     "difficulty": "Easy",
     "topics": [
