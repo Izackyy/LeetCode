@@ -275,6 +275,7 @@
 | [1795-rearrange-products-table](https://github.com/Izackyy/LeetCode/tree/main/MySQL/Easy/1795-rearrange-products-table/) | Easy |
 | [1873-calculate-special-bonus](https://github.com/Izackyy/LeetCode/tree/main/MySQL/Easy/1873-calculate-special-bonus/) | Easy |
 | [1890-the-latest-login-in-2020](https://github.com/Izackyy/LeetCode/tree/main/MySQL/Easy/1890-the-latest-login-in-2020/) | Easy |
+| [1934-confirmation-rate](https://github.com/Izackyy/LeetCode/tree/main/MySQL/Medium/1934-confirmation-rate/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
