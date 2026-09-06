@@ -275,6 +275,7 @@
 | [0626-exchange-seats](https://github.com/Izackyy/LeetCode/tree/main/MySQL/Medium/0626-exchange-seats/) | Medium |
 | [0627-swap-sex-of-employees](https://github.com/Izackyy/LeetCode/tree/main/MySQL/0627-swap-sex-of-employees/) | Easy |
 | [1321-restaurant-growth](https://github.com/Izackyy/LeetCode/tree/main/MySQL/Medium/1321-restaurant-growth/) | Medium |
+| [1393-capital-gainloss](https://github.com/Izackyy/LeetCode/tree/main/MySQL/Medium/1393-capital-gainloss/) | Medium |
 | [1517-find-users-with-valid-e-mails](https://github.com/Izackyy/LeetCode/tree/main/MySQL/Easy/1517-find-users-with-valid-e-mails/) | Easy |
 | [1683-invalid-tweets](https://github.com/Izackyy/LeetCode/tree/main/MySQL/Easy/1683-invalid-tweets/) | Easy |
 | [1795-rearrange-products-table](https://github.com/Izackyy/LeetCode/tree/main/MySQL/Easy/1795-rearrange-products-table/) | Easy |
