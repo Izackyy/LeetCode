@@ -5,7 +5,17 @@ class Solution(object):
         :type brokenLetters: str
         :rtype: int
         """
-        return sum(not set(w) & set(brokenLetters) for w in text.split())
+        broken = set(brokenLetters)
+        words = text.split(" ")
+        count = 0
+        for w in words:
+            for ch in w:
+                if ch in broken:
+                    count += 1
+                    break
+
+        return len(words) - count
+
 
         
         
