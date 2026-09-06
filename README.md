@@ -274,6 +274,7 @@
 | [1683-invalid-tweets](https://github.com/Izackyy/LeetCode/tree/main/MySQL/Easy/1683-invalid-tweets/) | Easy |
 | [1795-rearrange-products-table](https://github.com/Izackyy/LeetCode/tree/main/MySQL/Easy/1795-rearrange-products-table/) | Easy |
 | [1873-calculate-special-bonus](https://github.com/Izackyy/LeetCode/tree/main/MySQL/Easy/1873-calculate-special-bonus/) | Easy |
+| [1890-the-latest-login-in-2020](https://github.com/Izackyy/LeetCode/tree/main/MySQL/Easy/1890-the-latest-login-in-2020/) | Easy |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
