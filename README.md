@@ -8,9 +8,9 @@
 | Difficulty | Count |
 | --- | --- |
 | Easy | 176 |
-| Medium | 43 |
+| Medium | 44 |
 | Hard | 6 |
-| **Total** | 225 |
+| **Total** | 226 |
 
 ### Languages
 | Language | Count |
@@ -18,7 +18,7 @@
 | C | 1 |
 | C++ | 109 |
 | Python | 40 |
-| SQL | 76 |
+| SQL | 77 |
 
 ### Topics by Language
 
@@ -110,7 +110,7 @@
 - Python Tree: 3
 - Python Two Pointers: 4
 - Python Z Algorithm: 1
-- SQL Database: 75
+- SQL Database: 76
 
 <!---LeetCode Stats End-->
 

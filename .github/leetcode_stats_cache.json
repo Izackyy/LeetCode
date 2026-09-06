@@ -466,6 +466,12 @@
       "String"
     ]
   },
+  "exchange-seats": {
+    "difficulty": "Medium",
+    "topics": [
+      "Database"
+    ]
+  },
   "fibonacci-number": {
     "difficulty": "Easy",
     "topics": [
