@@ -570,6 +570,12 @@
       "Database"
     ]
   },
+  "find-valid-emails": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
   "find-words-containing-character": {
     "difficulty": "Easy",
     "topics": [
