@@ -17,7 +17,7 @@
 | --- | --- |
 | C | 1 |
 | C++ | 109 |
-| Python | 38 |
+| Python | 39 |
 | SQL | 68 |
 
 ### Topics by Language

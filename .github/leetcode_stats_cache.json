@@ -215,6 +215,10 @@
       "DP on Trees"
     ]
   },
+  "box-fit-queries": {
+    "difficulty": null,
+    "topics": null
+  },
   "can-place-flowers": {
     "difficulty": "Easy",
     "topics": [
