@@ -534,6 +534,12 @@
     "difficulty": "Easy",
     "topics": null
   },
+  "find-users-with-valid-e-mails": {
+    "difficulty": "Easy",
+    "topics": [
+      "Database"
+    ]
+  },
   "find-words-containing-character": {
     "difficulty": "Easy",
     "topics": [
