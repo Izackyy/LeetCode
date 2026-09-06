@@ -7,17 +7,17 @@
 ### Difficulty
 | Difficulty | Count |
 | --- | --- |
-| Easy | 175 |
+| Easy | 176 |
 | Medium | 42 |
 | Hard | 6 |
-| **Total** | 223 |
+| **Total** | 224 |
 
 ### Languages
 | Language | Count |
 | --- | --- |
 | C | 1 |
 | C++ | 109 |
-| Python | 39 |
+| Python | 40 |
 | SQL | 75 |
 
 ### Topics by Language
@@ -87,7 +87,7 @@
 - Python Graph Theory: 3
 - Python Greedy: 4
 - Python Hash Function: 1
-- Python Hash Table: 12
+- Python Hash Table: 13
 - Python Heap (Priority Queue): 3
 - Python Knuth–Morris–Pratt Algorithm: 1
 - Python Linked List: 2
@@ -104,7 +104,7 @@
 - Python Sliding Window: 3
 - Python Sorting: 2
 - Python Stack: 2
-- Python String: 17
+- Python String: 18
 - Python String Matching: 2
 - Python Topological Sort: 1
 - Python Tree: 3

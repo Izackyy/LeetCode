@@ -892,6 +892,13 @@
       "Breadth-First Search"
     ]
   },
+  "maximum-number-of-words-you-can-type": {
+    "difficulty": "Easy",
+    "topics": [
+      "Hash Table",
+      "String"
+    ]
+  },
   "maximum-product-of-three-numbers": {
     "difficulty": "Easy",
     "topics": [
