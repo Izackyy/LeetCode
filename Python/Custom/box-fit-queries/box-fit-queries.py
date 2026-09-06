@@ -73,6 +73,5 @@ if __name__ == "__main__":
 
     for i, (ops, expected) in enumerate(tests):
         got = solve(ops)
-        count = len(got)
         status = "PASS" if got == expected else "FAIL"
         print(f"test {i}: {status}  got={got} expected={expected}")
