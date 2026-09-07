@@ -5,16 +5,13 @@ class Solution(object):
         :rtype: int
         """
         
-        n = len(nums)
-        if n == 1:
-            return 0
-        
+        n = len(nums)        
         jumps = 0
         curr_end = 0
         far = 0
         
 
-        for i in range(n):
+        for i in range(n - 1):
             far = max(far, i + nums[i])
 
             if (i == curr_end):
