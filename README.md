@@ -150,6 +150,7 @@
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Izackyy/LeetCode/tree/main/Python/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Izackyy/LeetCode/tree/main/Python/0017-letter-combinations-of-a-phone-number/) | Medium |
+| [0036-valid-sudoku](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0036-valid-sudoku/) | Medium |
 | [0076-minimum-window-substring](https://github.com/Izackyy/LeetCode/tree/main/Python/Hard/0076-minimum-window-substring/) | Hard |
 | [0146-lru-cache](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0146-lru-cache/) | Medium |
 | [0383-ransom-note](https://github.com/Izackyy/LeetCode/tree/main/Python/0383-ransom-note/) | Easy |
@@ -223,6 +224,7 @@
 | ------- | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/Izackyy/LeetCode/tree/main/Python/0033-search-in-rotated-sorted-array/) | Medium |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Izackyy/LeetCode/tree/main/Python/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
+| [0036-valid-sudoku](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0036-valid-sudoku/) | Medium |
 | [0135-candy](https://github.com/Izackyy/LeetCode/tree/main/Python/0135-candy/) | Hard |
 | [0239-sliding-window-maximum](https://github.com/Izackyy/LeetCode/tree/main/Python/Hard/0239-sliding-window-maximum/) | Hard |
 | [0496-next-greater-element-i](https://github.com/Izackyy/LeetCode/tree/main/Python/0496-next-greater-element-i/) | Easy |
@@ -297,6 +299,7 @@
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0036-valid-sudoku](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0036-valid-sudoku/) | Medium |
 | [0661-image-smoother](https://github.com/Izackyy/LeetCode/tree/main/Python/0661-image-smoother/) | Easy |
 | [0994-rotting-oranges](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0994-rotting-oranges/) | Medium |
 ## Binary Search
