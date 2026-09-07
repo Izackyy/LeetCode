@@ -285,6 +285,7 @@
 | [1965-employees-with-missing-information](https://github.com/Izackyy/LeetCode/tree/main/MySQL/Easy/1965-employees-with-missing-information/) | Easy |
 | [3220-odd-and-even-transactions](https://github.com/Izackyy/LeetCode/tree/main/MySQL/Medium/3220-odd-and-even-transactions/) | Medium |
 | [3436-find-valid-emails](https://github.com/Izackyy/LeetCode/tree/main/MySQL/Easy/3436-find-valid-emails/) | Easy |
+| [3521-find-product-recommendation-pairs](https://github.com/Izackyy/LeetCode/tree/main/MySQL/Medium/3521-find-product-recommendation-pairs/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
