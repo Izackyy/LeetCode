@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/jump-game-ii/solutions/1192401/easy-solutions-w-explanation-optimizatio-c678/?envType=problem-list-v2&envId=djtx8jl7">45. Jump Game II</a></h2><h3>Medium</h3><hr><p>You are given a <strong>0-indexed</strong> array of integers <code>nums</code> of length <code>n</code>. You are initially positioned at&nbsp;index 0.</p>
+<h2><a href="https://leetcode.com/problems/jump-game-ii/solutions/1192401/easy-solutions-w-explanation-optimizatio-c678/?envType=problem-list-v2&envId=djtx8jl7">45. Jump Game II</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given a <strong>0-indexed</strong> array of integers <code>nums</code> of length <code>n</code>. You are initially positioned at&nbsp;index 0.</p>
 
 <p>Each element <code>nums[i]</code> represents the maximum length of a forward jump from index <code>i</code>. In other words, if you are at index <code>i</code>, you can jump to any index <code>(i + j)</code>&nbsp;where:</p>
 
