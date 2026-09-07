@@ -207,6 +207,7 @@
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0048-rotate-image](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0048-rotate-image/) | Medium |
 | [0412-fizz-buzz](https://github.com/Izackyy/LeetCode/tree/main/Python/0412-fizz-buzz/) | Easy |
 | [0415-add-strings](https://github.com/Izackyy/LeetCode/tree/main/Python/0415-add-strings/) | Easy |
 ## String Matching
@@ -233,6 +234,7 @@
 | [0045-jump-game-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0045-jump-game-ii/) | Medium |
 | [0046-permutations](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0046-permutations/) | Medium |
 | [0047-permutations-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0047-permutations-ii/) | Medium |
+| [0048-rotate-image](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0048-rotate-image/) | Medium |
 | [0135-candy](https://github.com/Izackyy/LeetCode/tree/main/Python/0135-candy/) | Hard |
 | [0239-sliding-window-maximum](https://github.com/Izackyy/LeetCode/tree/main/Python/Hard/0239-sliding-window-maximum/) | Hard |
 | [0496-next-greater-element-i](https://github.com/Izackyy/LeetCode/tree/main/Python/0496-next-greater-element-i/) | Easy |
@@ -308,6 +310,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0036-valid-sudoku](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0036-valid-sudoku/) | Medium |
+| [0048-rotate-image](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0048-rotate-image/) | Medium |
 | [0661-image-smoother](https://github.com/Izackyy/LeetCode/tree/main/Python/0661-image-smoother/) | Easy |
 | [0994-rotting-oranges](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0994-rotting-oranges/) | Medium |
 ## Binary Search
