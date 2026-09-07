@@ -193,10 +193,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Izackyy/LeetCode/tree/main/Python/0005-longest-palindromic-substring/) | Medium |
+| [0045-jump-game-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0045-jump-game-ii/) | Medium |
 | [0392-is-subsequence](https://github.com/Izackyy/LeetCode/tree/main/Python/0392-is-subsequence/) | Easy |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0045-jump-game-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0045-jump-game-ii/) | Medium |
 | [0135-candy](https://github.com/Izackyy/LeetCode/tree/main/Python/0135-candy/) | Hard |
 | [0409-longest-palindrome](https://github.com/Izackyy/LeetCode/tree/main/Python/0409-longest-palindrome/) | Easy |
 | [0621-task-scheduler](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0621-task-scheduler/) | Medium |
@@ -227,6 +229,7 @@
 | [0036-valid-sudoku](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0036-valid-sudoku/) | Medium |
 | [0039-combination-sum](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0039-combination-sum/) | Medium |
 | [0040-combination-sum-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0040-combination-sum-ii/) | Medium |
+| [0045-jump-game-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0045-jump-game-ii/) | Medium |
 | [0135-candy](https://github.com/Izackyy/LeetCode/tree/main/Python/0135-candy/) | Hard |
 | [0239-sliding-window-maximum](https://github.com/Izackyy/LeetCode/tree/main/Python/Hard/0239-sliding-window-maximum/) | Hard |
 | [0496-next-greater-element-i](https://github.com/Izackyy/LeetCode/tree/main/Python/0496-next-greater-element-i/) | Easy |
