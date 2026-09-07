@@ -528,6 +528,12 @@
       "Binary Tree"
     ]
   },
+  "find-product-recommendation-pairs": {
+    "difficulty": "Medium",
+    "topics": [
+      "Database"
+    ]
+  },
   "find-students-who-improved": {
     "difficulty": "Medium",
     "topics": [
