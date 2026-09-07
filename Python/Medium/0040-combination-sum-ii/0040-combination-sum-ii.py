@@ -9,8 +9,6 @@ class Solution(object):
         candidates.sort()
 
         def backtrack(target, start, temp):
-            if target < 0: 
-                return
             if target == 0:
                 ans.append(temp)
                 return
