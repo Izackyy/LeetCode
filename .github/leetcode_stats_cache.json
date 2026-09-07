@@ -654,6 +654,15 @@
       "Bracket Sequences"
     ]
   },
+  "group-anagrams": {
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Sorting"
+    ]
+  },
   "group-sold-products-by-the-date": {
     "difficulty": "Easy",
     "topics": [

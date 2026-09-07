@@ -8,16 +8,16 @@
 | Difficulty | Count |
 | --- | --- |
 | Easy | 177 |
-| Medium | 55 |
+| Medium | 56 |
 | Hard | 6 |
-| **Total** | 238 |
+| **Total** | 239 |
 
 ### Languages
 | Language | Count |
 | --- | --- |
 | C | 1 |
 | C++ | 109 |
-| Python | 47 |
+| Python | 48 |
 | SQL | 82 |
 
 ### Topics by Language
@@ -71,7 +71,7 @@
 - C++ Trie: 1
 - C++ Two Pointers: 23
 - C++ Z Algorithm: 1
-- Python Array: 21
+- Python Array: 22
 - Python Backtracking: 5
 - Python Binary Search: 3
 - Python Binary Tree: 3
@@ -87,7 +87,7 @@
 - Python Graph Theory: 3
 - Python Greedy: 5
 - Python Hash Function: 1
-- Python Hash Table: 14
+- Python Hash Table: 15
 - Python Heap (Priority Queue): 3
 - Python Knuth–Morris–Pratt Algorithm: 1
 - Python Linked List: 2
@@ -102,9 +102,9 @@
 - Python Shortest Path: 1
 - Python Simulation: 3
 - Python Sliding Window: 3
-- Python Sorting: 3
+- Python Sorting: 4
 - Python Stack: 2
-- Python String: 18
+- Python String: 19
 - Python String Matching: 2
 - Python Topological Sort: 1
 - Python Tree: 3
