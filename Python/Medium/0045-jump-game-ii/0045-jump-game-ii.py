@@ -4,13 +4,24 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
+        
         n = len(nums)
-        dp = [float('inf')] * n
-        dp[n - 1] = 0
+        if n == 1:
+            return 0
+        
+        jumps = 0
+        curr_end = 0
+        far = 0
+        
 
-        for i in range(n - 2, -1, -1):
-            for j in range(1, nums[i] + 1):
-                dp[i] = min(dp[i], 1 + dp[min(n - 1, i + j)])
+        for i in range(n):
+            far = max(far, i + nums[i])
 
-        return dp[0]
+            if (i == curr_end):
+                jumps += 1
+                curr_end = far
 
+                if curr_end == n - 1:
+                    break
+        
+        return jumps
