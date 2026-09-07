@@ -230,6 +230,7 @@
 | [0039-combination-sum](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0039-combination-sum/) | Medium |
 | [0040-combination-sum-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0040-combination-sum-ii/) | Medium |
 | [0045-jump-game-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0045-jump-game-ii/) | Medium |
+| [0046-permutations](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0046-permutations/) | Medium |
 | [0135-candy](https://github.com/Izackyy/LeetCode/tree/main/Python/0135-candy/) | Hard |
 | [0239-sliding-window-maximum](https://github.com/Izackyy/LeetCode/tree/main/Python/Hard/0239-sliding-window-maximum/) | Hard |
 | [0496-next-greater-element-i](https://github.com/Izackyy/LeetCode/tree/main/Python/0496-next-greater-element-i/) | Easy |
@@ -329,6 +330,7 @@
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Izackyy/LeetCode/tree/main/Python/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0039-combination-sum](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0039-combination-sum/) | Medium |
 | [0040-combination-sum-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0040-combination-sum-ii/) | Medium |
+| [0046-permutations](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0046-permutations/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
