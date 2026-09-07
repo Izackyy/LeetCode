@@ -180,6 +180,7 @@
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0047-permutations-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0047-permutations-ii/) | Medium |
 | [0389-find-the-difference](https://github.com/Izackyy/LeetCode/tree/main/Python/0389-find-the-difference/) | Easy |
 | [0621-task-scheduler](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0621-task-scheduler/) | Medium |
 ## Two Pointers
@@ -231,6 +232,7 @@
 | [0040-combination-sum-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0040-combination-sum-ii/) | Medium |
 | [0045-jump-game-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0045-jump-game-ii/) | Medium |
 | [0046-permutations](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0046-permutations/) | Medium |
+| [0047-permutations-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0047-permutations-ii/) | Medium |
 | [0135-candy](https://github.com/Izackyy/LeetCode/tree/main/Python/0135-candy/) | Hard |
 | [0239-sliding-window-maximum](https://github.com/Izackyy/LeetCode/tree/main/Python/Hard/0239-sliding-window-maximum/) | Hard |
 | [0496-next-greater-element-i](https://github.com/Izackyy/LeetCode/tree/main/Python/0496-next-greater-element-i/) | Easy |
@@ -331,6 +333,7 @@
 | [0039-combination-sum](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0039-combination-sum/) | Medium |
 | [0040-combination-sum-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0040-combination-sum-ii/) | Medium |
 | [0046-permutations](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0046-permutations/) | Medium |
+| [0047-permutations-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0047-permutations-ii/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
