@@ -267,6 +267,13 @@
       "Memoization"
     ]
   },
+  "combination-sum": {
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Backtracking"
+    ]
+  },
   "combine-two-tables": {
     "difficulty": "Easy",
     "topics": [
