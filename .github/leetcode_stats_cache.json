@@ -1173,6 +1173,13 @@
       "Database"
     ]
   },
+  "permutations": {
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Backtracking"
+    ]
+  },
   "plus-one": {
     "difficulty": "Easy",
     "topics": [
