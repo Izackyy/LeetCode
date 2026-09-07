@@ -122,6 +122,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/Izackyy/LeetCode/tree/main/Python/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0005-longest-palindromic-substring](https://github.com/Izackyy/LeetCode/tree/main/Python/0005-longest-palindromic-substring/) | Medium |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Izackyy/LeetCode/tree/main/Python/0017-letter-combinations-of-a-phone-number/) | Medium |
+| [0049-group-anagrams](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0049-group-anagrams/) | Medium |
 | [0076-minimum-window-substring](https://github.com/Izackyy/LeetCode/tree/main/Python/Hard/0076-minimum-window-substring/) | Hard |
 | [0383-ransom-note](https://github.com/Izackyy/LeetCode/tree/main/Python/0383-ransom-note/) | Easy |
 | [0387-first-unique-character-in-a-string](https://github.com/Izackyy/LeetCode/tree/main/Python/0387-first-unique-character-in-a-string/) | Easy |
@@ -151,6 +152,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/Izackyy/LeetCode/tree/main/Python/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Izackyy/LeetCode/tree/main/Python/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0036-valid-sudoku](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0036-valid-sudoku/) | Medium |
+| [0049-group-anagrams](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0049-group-anagrams/) | Medium |
 | [0076-minimum-window-substring](https://github.com/Izackyy/LeetCode/tree/main/Python/Hard/0076-minimum-window-substring/) | Hard |
 | [0146-lru-cache](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0146-lru-cache/) | Medium |
 | [0383-ransom-note](https://github.com/Izackyy/LeetCode/tree/main/Python/0383-ransom-note/) | Easy |
@@ -181,6 +183,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0047-permutations-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0047-permutations-ii/) | Medium |
+| [0049-group-anagrams](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0049-group-anagrams/) | Medium |
 | [0389-find-the-difference](https://github.com/Izackyy/LeetCode/tree/main/Python/0389-find-the-difference/) | Easy |
 | [0621-task-scheduler](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0621-task-scheduler/) | Medium |
 ## Two Pointers
@@ -235,6 +238,7 @@
 | [0046-permutations](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0046-permutations/) | Medium |
 | [0047-permutations-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0047-permutations-ii/) | Medium |
 | [0048-rotate-image](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0048-rotate-image/) | Medium |
+| [0049-group-anagrams](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0049-group-anagrams/) | Medium |
 | [0135-candy](https://github.com/Izackyy/LeetCode/tree/main/Python/0135-candy/) | Hard |
 | [0239-sliding-window-maximum](https://github.com/Izackyy/LeetCode/tree/main/Python/Hard/0239-sliding-window-maximum/) | Hard |
 | [0496-next-greater-element-i](https://github.com/Izackyy/LeetCode/tree/main/Python/0496-next-greater-element-i/) | Easy |
