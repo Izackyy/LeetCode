@@ -1180,6 +1180,14 @@
       "Backtracking"
     ]
   },
+  "permutations-ii": {
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Backtracking",
+      "Sorting"
+    ]
+  },
   "plus-one": {
     "difficulty": "Easy",
     "topics": [
