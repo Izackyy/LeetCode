@@ -8,16 +8,16 @@
 | Difficulty | Count |
 | --- | --- |
 | Easy | 177 |
-| Medium | 56 |
+| Medium | 57 |
 | Hard | 6 |
-| **Total** | 239 |
+| **Total** | 240 |
 
 ### Languages
 | Language | Count |
 | --- | --- |
 | C | 1 |
 | C++ | 109 |
-| Python | 48 |
+| Python | 49 |
 | SQL | 82 |
 
 ### Topics by Language
@@ -76,15 +76,15 @@
 - Python Binary Search: 3
 - Python Binary Tree: 3
 - Python Bit Manipulation: 1
-- Python Breadth-First Search: 5
+- Python Breadth-First Search: 6
 - Python Counting: 3
-- Python Depth-First Search: 5
+- Python Depth-First Search: 6
 - Python Design: 1
 - Python Dijkstra's Algorithm: 1
 - Python Directed Acyclic Graph: 1
 - Python Doubly-Linked List: 1
 - Python Dynamic Programming: 3
-- Python Graph Theory: 3
+- Python Graph Theory: 4
 - Python Greedy: 5
 - Python Hash Function: 1
 - Python Hash Table: 15
@@ -106,7 +106,7 @@
 - Python Stack: 2
 - Python String: 19
 - Python String Matching: 2
-- Python Topological Sort: 1
+- Python Topological Sort: 2
 - Python Tree: 3
 - Python Two Pointers: 4
 - Python Z Algorithm: 1

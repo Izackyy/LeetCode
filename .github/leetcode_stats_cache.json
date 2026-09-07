@@ -365,6 +365,15 @@
       "Directed Acyclic Graph"
     ]
   },
+  "course-schedule-ii": {
+    "difficulty": "Medium",
+    "topics": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory",
+      "Topological Sort"
+    ]
+  },
   "customer-placing-the-largest-number-of-orders": {
     "difficulty": "Easy",
     "topics": [
