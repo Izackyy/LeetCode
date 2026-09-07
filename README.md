@@ -270,6 +270,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0207-course-schedule](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0207-course-schedule/) | Medium |
+| [0210-course-schedule-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0210-course-schedule-ii/) | Medium |
 | [0572-subtree-of-another-tree](https://github.com/Izackyy/LeetCode/tree/main/Python/0572-subtree-of-another-tree/) | Easy |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Izackyy/LeetCode/tree/main/Python/0637-average-of-levels-in-binary-tree/) | Easy |
 | [0671-second-minimum-node-in-a-binary-tree](https://github.com/Izackyy/LeetCode/tree/main/Python/0671-second-minimum-node-in-a-binary-tree/) | Easy |
@@ -306,6 +307,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0207-course-schedule](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0207-course-schedule/) | Medium |
+| [0210-course-schedule-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0210-course-schedule-ii/) | Medium |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Izackyy/LeetCode/tree/main/Python/0637-average-of-levels-in-binary-tree/) | Easy |
 | [0743-network-delay-time](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0743-network-delay-time/) | Medium |
 | [0994-rotting-oranges](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0994-rotting-oranges/) | Medium |
@@ -354,6 +356,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0207-course-schedule](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0207-course-schedule/) | Medium |
+| [0210-course-schedule-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0210-course-schedule-ii/) | Medium |
 | [0743-network-delay-time](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0743-network-delay-time/) | Medium |
 | [1298-maximum-candies-you-can-get-from-boxes](https://github.com/Izackyy/LeetCode/tree/main/Python/1298-maximum-candies-you-can-get-from-boxes/) | Hard |
 ## Design
@@ -374,6 +377,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0207-course-schedule](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0207-course-schedule/) | Medium |
+| [0210-course-schedule-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0210-course-schedule-ii/) | Medium |
 ## Directed Acyclic Graph
 | Problem Name | Difficulty |
 | ------- | ------- |
