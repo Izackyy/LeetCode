@@ -1668,6 +1668,14 @@
       "Bracket Sequences"
     ]
   },
+  "valid-sudoku": {
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Matrix"
+    ]
+  },
   "word-pattern": {
     "difficulty": "Easy",
     "topics": [
