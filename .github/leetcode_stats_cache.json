@@ -274,6 +274,13 @@
       "Backtracking"
     ]
   },
+  "combination-sum-ii": {
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Backtracking"
+    ]
+  },
   "combine-two-tables": {
     "difficulty": "Easy",
     "topics": [
