@@ -762,6 +762,14 @@
       "String"
     ]
   },
+  "jump-game-ii": {
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy"
+    ]
+  },
   "keyboard-row": {
     "difficulty": "Easy",
     "topics": [
