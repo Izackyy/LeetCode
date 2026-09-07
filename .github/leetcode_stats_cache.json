@@ -1426,6 +1426,14 @@
       "Simulation"
     ]
   },
+  "rotate-image": {
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Math",
+      "Matrix"
+    ]
+  },
   "rotate-string": {
     "difficulty": "Easy",
     "topics": [
