@@ -288,6 +288,7 @@
 ## Database
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0185-department-top-three-salaries](https://github.com/Izackyy/LeetCode/tree/main/MySQL/Hard/0185-department-top-three-salaries/) | Hard |
 | [0602-friend-requests-ii-who-has-the-most-friends](https://github.com/Izackyy/LeetCode/tree/main/MySQL/Medium/0602-friend-requests-ii-who-has-the-most-friends/) | Medium |
 | [0626-exchange-seats](https://github.com/Izackyy/LeetCode/tree/main/MySQL/Medium/0626-exchange-seats/) | Medium |
 | [0627-swap-sex-of-employees](https://github.com/Izackyy/LeetCode/tree/main/MySQL/0627-swap-sex-of-employees/) | Easy |
