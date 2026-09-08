@@ -213,6 +213,7 @@
 | [0048-rotate-image](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0048-rotate-image/) | Medium |
 | [0412-fizz-buzz](https://github.com/Izackyy/LeetCode/tree/main/Python/0412-fizz-buzz/) | Easy |
 | [0415-add-strings](https://github.com/Izackyy/LeetCode/tree/main/Python/0415-add-strings/) | Easy |
+| [3870-count-commas-in-range](https://github.com/Izackyy/LeetCode/tree/main/Python/Easy/3870-count-commas-in-range/) | Easy |
 ## String Matching
 | Problem Name | Difficulty |
 | ------- | ------- |
