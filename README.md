@@ -7,17 +7,17 @@
 ### Difficulty
 | Difficulty | Count |
 | --- | --- |
-| Easy | 177 |
+| Easy | 178 |
 | Medium | 57 |
 | Hard | 7 |
-| **Total** | 241 |
+| **Total** | 242 |
 
 ### Languages
 | Language | Count |
 | --- | --- |
 | C | 1 |
 | C++ | 109 |
-| Python | 49 |
+| Python | 50 |
 | SQL | 83 |
 
 ### Topics by Language
@@ -92,7 +92,7 @@
 - Python Knuth–Morris–Pratt Algorithm: 1
 - Python Linked List: 2
 - Python Manacher: 1
-- Python Math: 3
+- Python Math: 4
 - Python Matrix: 4
 - Python Monotonic Queue: 1
 - Python Monotonic Stack: 1
