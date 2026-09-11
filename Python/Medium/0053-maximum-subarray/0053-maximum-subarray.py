@@ -4,10 +4,14 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        curr_max, prev_max = 0, float('-inf')
+        total = 0
+        res = nums[0]
 
         for num in nums:
-            curr_max = max(num, curr_max + num)
-            prev_max = max(prev_max, curr_max)
+            if total < 0:
+                total = 0
+            
+            total += num
+            res = max(total, res)
 
-        return prev_max
+        return res
