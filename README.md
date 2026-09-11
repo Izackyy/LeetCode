@@ -198,6 +198,7 @@
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Izackyy/LeetCode/tree/main/Python/0005-longest-palindromic-substring/) | Medium |
 | [0045-jump-game-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0045-jump-game-ii/) | Medium |
+| [0053-maximum-subarray](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0053-maximum-subarray/) | Medium |
 | [0392-is-subsequence](https://github.com/Izackyy/LeetCode/tree/main/Python/0392-is-subsequence/) | Easy |
 ## Greedy
 | Problem Name | Difficulty |
@@ -240,6 +241,7 @@
 | [0047-permutations-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0047-permutations-ii/) | Medium |
 | [0048-rotate-image](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0048-rotate-image/) | Medium |
 | [0049-group-anagrams](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0049-group-anagrams/) | Medium |
+| [0053-maximum-subarray](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0053-maximum-subarray/) | Medium |
 | [0135-candy](https://github.com/Izackyy/LeetCode/tree/main/Python/0135-candy/) | Hard |
 | [0239-sliding-window-maximum](https://github.com/Izackyy/LeetCode/tree/main/Python/Hard/0239-sliding-window-maximum/) | Hard |
 | [0496-next-greater-element-i](https://github.com/Izackyy/LeetCode/tree/main/Python/0496-next-greater-element-i/) | Easy |
@@ -400,4 +402,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0239-sliding-window-maximum](https://github.com/Izackyy/LeetCode/tree/main/Python/Hard/0239-sliding-window-maximum/) | Hard |
+## Divide and Conquer
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0053-maximum-subarray](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0053-maximum-subarray/) | Medium |
 <!---LeetCode Topics End-->
