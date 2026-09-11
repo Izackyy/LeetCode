@@ -983,6 +983,14 @@
       "Sorting"
     ]
   },
+  "maximum-subarray": {
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Divide and Conquer",
+      "Dynamic Programming"
+    ]
+  },
   "merge-sorted-array": {
     "difficulty": "Easy",
     "topics": [
