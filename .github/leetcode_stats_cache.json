@@ -713,6 +713,12 @@
       "Queue"
     ]
   },
+  "insert-interval": {
+    "difficulty": "Medium",
+    "topics": [
+      "Array"
+    ]
+  },
   "intersection-of-two-arrays": {
     "difficulty": "Easy",
     "topics": [
