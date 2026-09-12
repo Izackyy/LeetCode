@@ -1668,6 +1668,19 @@
       "String"
     ]
   },
+  "top-k-frequent-elements": {
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Divide and Conquer",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Bucket Sort",
+      "Counting",
+      "Quickselect"
+    ]
+  },
   "top-travellers": {
     "difficulty": "Easy",
     "topics": [
