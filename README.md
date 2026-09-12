@@ -180,6 +180,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0389-find-the-difference](https://github.com/Izackyy/LeetCode/tree/main/Python/0389-find-the-difference/) | Easy |
+| [3180-maximum-total-reward-using-operations-i](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/3180-maximum-total-reward-using-operations-i/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -187,6 +188,7 @@
 | [0049-group-anagrams](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0049-group-anagrams/) | Medium |
 | [0389-find-the-difference](https://github.com/Izackyy/LeetCode/tree/main/Python/0389-find-the-difference/) | Easy |
 | [0621-task-scheduler](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0621-task-scheduler/) | Medium |
+| [3180-maximum-total-reward-using-operations-i](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/3180-maximum-total-reward-using-operations-i/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -201,6 +203,7 @@
 | [0045-jump-game-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0045-jump-game-ii/) | Medium |
 | [0053-maximum-subarray](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0053-maximum-subarray/) | Medium |
 | [0392-is-subsequence](https://github.com/Izackyy/LeetCode/tree/main/Python/0392-is-subsequence/) | Easy |
+| [3180-maximum-total-reward-using-operations-i](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/3180-maximum-total-reward-using-operations-i/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -255,6 +258,7 @@
 | [0704-binary-search](https://github.com/Izackyy/LeetCode/tree/main/Python/0704-binary-search/) | Easy |
 | [0994-rotting-oranges](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0994-rotting-oranges/) | Medium |
 | [1298-maximum-candies-you-can-get-from-boxes](https://github.com/Izackyy/LeetCode/tree/main/Python/1298-maximum-candies-you-can-get-from-boxes/) | Hard |
+| [3180-maximum-total-reward-using-operations-i](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/3180-maximum-total-reward-using-operations-i/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
