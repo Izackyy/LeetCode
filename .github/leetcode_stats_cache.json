@@ -991,6 +991,15 @@
       "Dynamic Programming"
     ]
   },
+  "maximum-total-reward-using-operations-i": {
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Bit Manipulation",
+      "Sorting"
+    ]
+  },
   "merge-sorted-array": {
     "difficulty": "Easy",
     "topics": [
