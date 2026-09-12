@@ -1,5 +1,3 @@
-import math
-
 class Solution(object):
     def uniquePaths(self, m, n):
         """
@@ -7,7 +5,10 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        numerator = math.factorial(m + n - 2)
-        denominator = math.factorial(m - 1) * math.factorial(n - 1)
+        dp = [[1] * n for _ in range(m)]
 
-        return numerator / denominator
+        for i in range(1, m):
+            for j in range(1, n):
+                dp[i][j] = dp[i - 1][j] + dp[i][j - 1]
+
+        return dp[-1][-1]
