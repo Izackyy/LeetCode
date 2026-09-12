@@ -202,6 +202,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Izackyy/LeetCode/tree/main/Python/0005-longest-palindromic-substring/) | Medium |
+| [0061-rotate-list](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0061-rotate-list/) | Medium |
 | [0392-is-subsequence](https://github.com/Izackyy/LeetCode/tree/main/Python/0392-is-subsequence/) | Easy |
 | [0680-valid-palindrome-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/0680-valid-palindrome-ii/) | Easy |
 | [0696-count-binary-substrings](https://github.com/Izackyy/LeetCode/tree/main/Python/0696-count-binary-substrings/) | Easy |
@@ -375,6 +376,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0024-swap-nodes-in-pairs](https://github.com/Izackyy/LeetCode/tree/main/Python/0024-swap-nodes-in-pairs/) | Medium |
+| [0061-rotate-list](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0061-rotate-list/) | Medium |
 | [0146-lru-cache](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0146-lru-cache/) | Medium |
 ## Recursion
 | Problem Name | Difficulty |
