@@ -1287,6 +1287,13 @@
       "Database"
     ]
   },
+  "product-of-array-except-self": {
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Prefix Sum"
+    ]
+  },
   "product-price-at-a-given-date": {
     "difficulty": "Medium",
     "topics": [
