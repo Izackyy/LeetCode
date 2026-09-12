@@ -191,6 +191,7 @@
 | ------- | ------- |
 | [0047-permutations-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0047-permutations-ii/) | Medium |
 | [0049-group-anagrams](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0049-group-anagrams/) | Medium |
+| [0056-merge-intervals](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0056-merge-intervals/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0347-top-k-frequent-elements/) | Medium |
 | [0389-find-the-difference](https://github.com/Izackyy/LeetCode/tree/main/Python/0389-find-the-difference/) | Easy |
 | [0621-task-scheduler](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0621-task-scheduler/) | Medium |
@@ -256,6 +257,7 @@
 | [0053-maximum-subarray](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0053-maximum-subarray/) | Medium |
 | [0054-spiral-matrix](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0054-spiral-matrix/) | Medium |
 | [0055-jump-game](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0055-jump-game/) | Medium |
+| [0056-merge-intervals](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0056-merge-intervals/) | Medium |
 | [0135-candy](https://github.com/Izackyy/LeetCode/tree/main/Python/0135-candy/) | Hard |
 | [0239-sliding-window-maximum](https://github.com/Izackyy/LeetCode/tree/main/Python/Hard/0239-sliding-window-maximum/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0347-top-k-frequent-elements/) | Medium |
@@ -433,4 +435,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0347-top-k-frequent-elements/) | Medium |
+## Quicksort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0056-merge-intervals](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0056-merge-intervals/) | Medium |
 <!---LeetCode Topics End-->
