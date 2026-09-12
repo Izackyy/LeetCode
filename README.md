@@ -157,6 +157,7 @@
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/Izackyy/LeetCode/tree/main/Python/Easy/0001-two-sum/) | Easy |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Izackyy/LeetCode/tree/main/Python/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Izackyy/LeetCode/tree/main/Python/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0036-valid-sudoku](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0036-valid-sudoku/) | Medium |
@@ -252,6 +253,7 @@
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/Izackyy/LeetCode/tree/main/Python/Easy/0001-two-sum/) | Easy |
 | [0033-search-in-rotated-sorted-array](https://github.com/Izackyy/LeetCode/tree/main/Python/0033-search-in-rotated-sorted-array/) | Medium |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Izackyy/LeetCode/tree/main/Python/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
 | [0036-valid-sudoku](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0036-valid-sudoku/) | Medium |
