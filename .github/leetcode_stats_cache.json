@@ -1566,6 +1566,14 @@
       "Range Minimum/Maximum Query"
     ]
   },
+  "spiral-matrix": {
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Matrix",
+      "Simulation"
+    ]
+  },
   "student-attendance-record-i": {
     "difficulty": "Easy",
     "topics": [
