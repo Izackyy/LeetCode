@@ -147,6 +147,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0054-spiral-matrix](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0054-spiral-matrix/) | Medium |
+| [0059-spiral-matrix-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0059-spiral-matrix-ii/) | Medium |
 | [0412-fizz-buzz](https://github.com/Izackyy/LeetCode/tree/main/Python/0412-fizz-buzz/) | Easy |
 | [0415-add-strings](https://github.com/Izackyy/LeetCode/tree/main/Python/0415-add-strings/) | Easy |
 | [0657-robot-return-to-origin](https://github.com/Izackyy/LeetCode/tree/main/C++/0657-robot-return-to-origin/) | Easy |
@@ -260,6 +261,7 @@
 | [0055-jump-game](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0055-jump-game/) | Medium |
 | [0056-merge-intervals](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0056-merge-intervals/) | Medium |
 | [0057-insert-interval](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0057-insert-interval/) | Medium |
+| [0059-spiral-matrix-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0059-spiral-matrix-ii/) | Medium |
 | [0135-candy](https://github.com/Izackyy/LeetCode/tree/main/Python/0135-candy/) | Hard |
 | [0239-sliding-window-maximum](https://github.com/Izackyy/LeetCode/tree/main/Python/Hard/0239-sliding-window-maximum/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0347-top-k-frequent-elements/) | Medium |
@@ -342,6 +344,7 @@
 | [0036-valid-sudoku](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0036-valid-sudoku/) | Medium |
 | [0048-rotate-image](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0048-rotate-image/) | Medium |
 | [0054-spiral-matrix](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0054-spiral-matrix/) | Medium |
+| [0059-spiral-matrix-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0059-spiral-matrix-ii/) | Medium |
 | [0661-image-smoother](https://github.com/Izackyy/LeetCode/tree/main/Python/0661-image-smoother/) | Easy |
 | [0994-rotting-oranges](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0994-rotting-oranges/) | Medium |
 ## Binary Search
