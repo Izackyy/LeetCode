@@ -269,6 +269,7 @@
 | [0059-spiral-matrix-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0059-spiral-matrix-ii/) | Medium |
 | [0063-unique-paths-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0063-unique-paths-ii/) | Medium |
 | [0135-candy](https://github.com/Izackyy/LeetCode/tree/main/Python/0135-candy/) | Hard |
+| [0238-product-of-array-except-self](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0238-product-of-array-except-self/) | Medium |
 | [0239-sliding-window-maximum](https://github.com/Izackyy/LeetCode/tree/main/Python/Hard/0239-sliding-window-maximum/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0347-top-k-frequent-elements/) | Medium |
 | [0496-next-greater-element-i](https://github.com/Izackyy/LeetCode/tree/main/Python/0496-next-greater-element-i/) | Easy |
@@ -456,4 +457,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0062-unique-paths](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0062-unique-paths/) | Medium |
+## Prefix Sum
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0238-product-of-array-except-self](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0238-product-of-array-except-self/) | Medium |
 <!---LeetCode Topics End-->
