@@ -1596,6 +1596,14 @@
       "Simulation"
     ]
   },
+  "spiral-matrix-ii": {
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Matrix",
+      "Simulation"
+    ]
+  },
   "student-attendance-record-i": {
     "difficulty": "Easy",
     "topics": [
