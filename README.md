@@ -8,16 +8,16 @@
 | Difficulty | Count |
 | --- | --- |
 | Easy | 178 |
-| Medium | 65 |
+| Medium | 66 |
 | Hard | 7 |
-| **Total** | 250 |
+| **Total** | 251 |
 
 ### Languages
 | Language | Count |
 | --- | --- |
 | C | 1 |
 | C++ | 109 |
-| Python | 58 |
+| Python | 59 |
 | SQL | 83 |
 
 ### Topics by Language
@@ -92,7 +92,7 @@
 - Python Hash Table: 16
 - Python Heap (Priority Queue): 4
 - Python Knuth–Morris–Pratt Algorithm: 1
-- Python Linked List: 2
+- Python Linked List: 3
 - Python Manacher: 1
 - Python Math: 4
 - Python Matrix: 6
@@ -112,7 +112,7 @@
 - Python String Matching: 2
 - Python Topological Sort: 2
 - Python Tree: 3
-- Python Two Pointers: 4
+- Python Two Pointers: 5
 - Python Z Algorithm: 1
 - SQL Database: 82
 

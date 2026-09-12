@@ -1497,6 +1497,13 @@
       "Matrix"
     ]
   },
+  "rotate-list": {
+    "difficulty": "Medium",
+    "topics": [
+      "Linked List",
+      "Two Pointers"
+    ]
+  },
   "rotate-string": {
     "difficulty": "Easy",
     "topics": [
