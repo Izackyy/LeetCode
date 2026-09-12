@@ -213,6 +213,7 @@
 | [0045-jump-game-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0045-jump-game-ii/) | Medium |
 | [0053-maximum-subarray](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0053-maximum-subarray/) | Medium |
 | [0055-jump-game](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0055-jump-game/) | Medium |
+| [0062-unique-paths](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0062-unique-paths/) | Medium |
 | [0392-is-subsequence](https://github.com/Izackyy/LeetCode/tree/main/Python/0392-is-subsequence/) | Easy |
 | [3180-maximum-total-reward-using-operations-i](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/3180-maximum-total-reward-using-operations-i/) | Medium |
 ## Greedy
@@ -228,6 +229,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0048-rotate-image](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0048-rotate-image/) | Medium |
+| [0062-unique-paths](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0062-unique-paths/) | Medium |
 | [0412-fizz-buzz](https://github.com/Izackyy/LeetCode/tree/main/Python/0412-fizz-buzz/) | Easy |
 | [0415-add-strings](https://github.com/Izackyy/LeetCode/tree/main/Python/0415-add-strings/) | Easy |
 | [3870-count-commas-in-range](https://github.com/Izackyy/LeetCode/tree/main/Python/Easy/3870-count-commas-in-range/) | Easy |
@@ -446,4 +448,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0056-merge-intervals](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0056-merge-intervals/) | Medium |
+## Combinatorics
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0062-unique-paths](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0062-unique-paths/) | Medium |
 <!---LeetCode Topics End-->
