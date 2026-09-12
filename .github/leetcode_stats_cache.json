@@ -1775,6 +1775,14 @@
       "Math"
     ]
   },
+  "unique-paths": {
+    "difficulty": "Medium",
+    "topics": [
+      "Math",
+      "Dynamic Programming",
+      "Combinatorics"
+    ]
+  },
   "user-activity-for-the-past-30-days-i": {
     "difficulty": "Easy",
     "topics": [

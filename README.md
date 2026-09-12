@@ -8,16 +8,16 @@
 | Difficulty | Count |
 | --- | --- |
 | Easy | 178 |
-| Medium | 66 |
+| Medium | 67 |
 | Hard | 7 |
-| **Total** | 251 |
+| **Total** | 252 |
 
 ### Languages
 | Language | Count |
 | --- | --- |
 | C | 1 |
 | C++ | 109 |
-| Python | 59 |
+| Python | 60 |
 | SQL | 83 |
 
 ### Topics by Language
@@ -78,6 +78,7 @@
 - Python Bit Manipulation: 2
 - Python Breadth-First Search: 6
 - Python Bucket Sort: 1
+- Python Combinatorics: 1
 - Python Counting: 4
 - Python Depth-First Search: 6
 - Python Design: 1
@@ -85,7 +86,7 @@
 - Python Directed Acyclic Graph: 1
 - Python Divide and Conquer: 2
 - Python Doubly-Linked List: 1
-- Python Dynamic Programming: 6
+- Python Dynamic Programming: 7
 - Python Graph Theory: 4
 - Python Greedy: 6
 - Python Hash Function: 1
@@ -94,7 +95,7 @@
 - Python Knuth–Morris–Pratt Algorithm: 1
 - Python Linked List: 3
 - Python Manacher: 1
-- Python Math: 4
+- Python Math: 5
 - Python Matrix: 6
 - Python Monotonic Queue: 1
 - Python Monotonic Stack: 1
