@@ -1008,6 +1008,14 @@
       "Sorting"
     ]
   },
+  "merge-intervals": {
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Sorting",
+      "Quicksort"
+    ]
+  },
   "merge-sorted-array": {
     "difficulty": "Easy",
     "topics": [
