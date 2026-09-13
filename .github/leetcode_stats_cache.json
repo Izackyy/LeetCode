@@ -1183,6 +1183,16 @@
       "Bit Manipulation"
     ]
   },
+  "number-of-islands": {
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Matrix"
+    ]
+  },
   "number-of-segments-in-a-string": {
     "difficulty": "Easy",
     "topics": [
