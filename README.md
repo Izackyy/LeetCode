@@ -285,6 +285,7 @@
 | [0682-baseball-game](https://github.com/Izackyy/LeetCode/tree/main/Python/0682-baseball-game/) | Easy |
 | [0697-degree-of-an-array](https://github.com/Izackyy/LeetCode/tree/main/Python/0697-degree-of-an-array/) | Easy |
 | [0704-binary-search](https://github.com/Izackyy/LeetCode/tree/main/Python/0704-binary-search/) | Easy |
+| [0875-koko-eating-bananas](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0875-koko-eating-bananas/) | Medium |
 | [0994-rotting-oranges](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0994-rotting-oranges/) | Medium |
 | [1298-maximum-candies-you-can-get-from-boxes](https://github.com/Izackyy/LeetCode/tree/main/Python/1298-maximum-candies-you-can-get-from-boxes/) | Hard |
 | [3180-maximum-total-reward-using-operations-i](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/3180-maximum-total-reward-using-operations-i/) | Medium |
@@ -366,6 +367,7 @@
 | [0033-search-in-rotated-sorted-array](https://github.com/Izackyy/LeetCode/tree/main/Python/0033-search-in-rotated-sorted-array/) | Medium |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Izackyy/LeetCode/tree/main/Python/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
 | [0704-binary-search](https://github.com/Izackyy/LeetCode/tree/main/Python/0704-binary-search/) | Easy |
+| [0875-koko-eating-bananas](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0875-koko-eating-bananas/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
