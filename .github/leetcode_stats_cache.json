@@ -1630,6 +1630,14 @@
       "Database"
     ]
   },
+  "subarray-sum-equals-k": {
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Prefix Sum"
+    ]
+  },
   "subtree-of-another-tree": {
     "difficulty": "Easy",
     "topics": [
