@@ -816,6 +816,13 @@
       "String"
     ]
   },
+  "koko-eating-bananas": {
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Binary Search"
+    ]
+  },
   "last-person-to-fit-in-the-bus": {
     "difficulty": "Medium",
     "topics": [
