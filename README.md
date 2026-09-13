@@ -255,6 +255,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/Izackyy/LeetCode/tree/main/Python/Easy/0001-two-sum/) | Easy |
+| [0004-median-of-two-sorted-arrays](https://github.com/Izackyy/LeetCode/tree/main/Python/Hard/0004-median-of-two-sorted-arrays/) | Hard |
 | [0033-search-in-rotated-sorted-array](https://github.com/Izackyy/LeetCode/tree/main/Python/0033-search-in-rotated-sorted-array/) | Medium |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Izackyy/LeetCode/tree/main/Python/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
 | [0036-valid-sudoku](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0036-valid-sudoku/) | Medium |
@@ -364,6 +365,7 @@
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/Izackyy/LeetCode/tree/main/Python/Hard/0004-median-of-two-sorted-arrays/) | Hard |
 | [0033-search-in-rotated-sorted-array](https://github.com/Izackyy/LeetCode/tree/main/Python/0033-search-in-rotated-sorted-array/) | Medium |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Izackyy/LeetCode/tree/main/Python/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
 | [0704-binary-search](https://github.com/Izackyy/LeetCode/tree/main/Python/0704-binary-search/) | Easy |
@@ -446,6 +448,7 @@
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/Izackyy/LeetCode/tree/main/Python/Hard/0004-median-of-two-sorted-arrays/) | Hard |
 | [0053-maximum-subarray](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0053-maximum-subarray/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0347-top-k-frequent-elements/) | Medium |
 ## Bucket Sort
