@@ -220,6 +220,7 @@
 | [0055-jump-game](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0055-jump-game/) | Medium |
 | [0062-unique-paths](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0062-unique-paths/) | Medium |
 | [0063-unique-paths-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0063-unique-paths-ii/) | Medium |
+| [0070-climbing-stairs](https://github.com/Izackyy/LeetCode/tree/main/Python/Easy/0070-climbing-stairs/) | Easy |
 | [0392-is-subsequence](https://github.com/Izackyy/LeetCode/tree/main/Python/0392-is-subsequence/) | Easy |
 | [3180-maximum-total-reward-using-operations-i](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/3180-maximum-total-reward-using-operations-i/) | Medium |
 ## Greedy
@@ -236,6 +237,7 @@
 | ------- | ------- |
 | [0048-rotate-image](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0048-rotate-image/) | Medium |
 | [0062-unique-paths](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0062-unique-paths/) | Medium |
+| [0070-climbing-stairs](https://github.com/Izackyy/LeetCode/tree/main/Python/Easy/0070-climbing-stairs/) | Easy |
 | [0412-fizz-buzz](https://github.com/Izackyy/LeetCode/tree/main/Python/0412-fizz-buzz/) | Easy |
 | [0415-add-strings](https://github.com/Izackyy/LeetCode/tree/main/Python/0415-add-strings/) | Easy |
 | [3870-count-commas-in-range](https://github.com/Izackyy/LeetCode/tree/main/Python/Easy/3870-count-commas-in-range/) | Easy |
@@ -473,4 +475,8 @@
 | ------- | ------- |
 | [0238-product-of-array-except-self](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0238-product-of-array-except-self/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0560-subarray-sum-equals-k/) | Medium |
+## Memoization
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0070-climbing-stairs](https://github.com/Izackyy/LeetCode/tree/main/Python/Easy/0070-climbing-stairs/) | Easy |
 <!---LeetCode Topics End-->
