@@ -28,7 +28,7 @@ jobs:
           def git(cmd):
               r = run(f"git {cmd}")
               if r.returncode != 0:
-                  print(f"git {cmd} failed: {r.stderr}")
+                  print(f"git {cmd} failed: stdout={r.stdout!r} stderr={r.stderr!r}")
               return r
 
           # LeetHub and our own bot workflows can leave a folder's *current*
@@ -78,7 +78,7 @@ jobs:
                   if STATS_RE.match(subject):
                       return None
                   folder = readme.rsplit('/', 1)[0]
-                  log = git(f'log --format=%H%x09%s {sha}^ -- "{folder}"').stdout.strip().splitlines()
+                  log = git(f'log --format=%H%x09%s {sha}~1 -- "{folder}"').stdout.strip().splitlines()
                   stats_sha = None
                   for line in log:
                       h, _, msg = line.partition('\t')
@@ -106,24 +106,31 @@ jobs:
               git('config user.email "github-actions[bot]@users.noreply.github.com"')
 
               if target_sha == head_sha:
-                  git(f'commit --amend -C {stats_sha}')
+                  git(f'commit --amend --allow-empty -C {stats_sha}')
               else:
                   # Reword a non-tip commit without interactive rebase: rewind
                   # to its parent, replay its own diff under the real stats
                   # message, then replay everything that came after it
                   # (always unrelated root-readme-only commits so far) via
                   # cherry-pick, which preserves each one's own message.
-                  git(f'reset --hard {target_sha}^')
-                  cp = git(f'cherry-pick --no-commit {target_sha}')
+                  # --no-commit + --allow-empty: LeetHub occasionally fires
+                  # the same commit twice in a row, so target's own diff
+                  # against its parent can be empty - still reword it.
+                  git(f'reset --hard {target_sha}~1')
+                  cp = git(f'cherry-pick --no-commit --allow-empty {target_sha}')
                   if cp.returncode != 0:
-                      print(f"cherry-pick of {target_sha} failed, aborting this attempt: {cp.stderr}")
+                      print(f"cherry-pick of {target_sha} failed, aborting this attempt")
                       git('cherry-pick --abort')
                       git(f'reset --hard {head_sha}')
                       break
-                  git(f'commit -C {stats_sha}')
-                  replay = git(f'cherry-pick {target_sha}..{head_sha}')
+                  commit_result = git(f'commit --allow-empty -C {stats_sha}')
+                  if commit_result.returncode != 0:
+                      print(f"commit -C {stats_sha} failed, aborting this attempt")
+                      git(f'reset --hard {head_sha}')
+                      break
+                  replay = git(f'cherry-pick --allow-empty {target_sha}..{head_sha}')
                   if replay.returncode != 0:
-                      print(f"replaying commits after {target_sha} failed, aborting this attempt: {replay.stderr}")
+                      print(f"replaying commits after {target_sha} failed, aborting this attempt")
                       git('cherry-pick --abort')
                       git(f'reset --hard {head_sha}')
                       break
