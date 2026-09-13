@@ -1021,6 +1021,14 @@
       "Sorting"
     ]
   },
+  "median-of-two-sorted-arrays": {
+    "difficulty": "Hard",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Divide and Conquer"
+    ]
+  },
   "merge-intervals": {
     "difficulty": "Medium",
     "topics": [
