@@ -28,69 +28,115 @@ jobs:
           def git(cmd):
               r = run(f"git {cmd}")
               if r.returncode != 0:
-                  print(f"git {cmd} failed: {r.stderr}")
+                  print(f"git {cmd} failed: stdout={r.stdout!r} stderr={r.stderr!r}")
               return r
 
           # LeetHub and our own bot workflows can leave a folder's *current*
           # last commit as something other than its real Time/Space stats
           # line (a "Create readme"/"Add X to topics." replay, a stale -C
           # HEAD reuse from a race with a concurrent workflow run, etc). This
-          # is a general safety net: whenever HEAD is a normal single-problem
-          # commit (touches one folder, <=2 files - never the old 60-70 file
-          # bulk-rename commits, which are intentionally left alone) and its
-          # own message isn't the stats line, but a real stats commit exists
-          # earlier in that folder's history, reword HEAD to reuse it (-C).
+          # is a general safety net.
+          #
+          # Root-readme-only commits (update_readme_stats.yml's own "chore:
+          # update README statistics") almost always land on top of the real
+          # per-problem commit within seconds, so HEAD itself is usually one
+          # of those, not the thing that needs fixing. So this walks backward
+          # from HEAD, skipping root-readme-only commits, to find the most
+          # recent genuine single-problem commit (touches one folder's own
+          # README.md - matched by requiring a "/" so the root README.md
+          # itself is never mistaken for one - plus <=2 files, never the old
+          # 60-70 file bulk-rename commits, which are intentionally left
+          # alone). If that commit's own message isn't the stats line but a
+          # real stats commit exists earlier in that folder's history, reword
+          # it in place (even though it usually isn't HEAD) by rewinding to
+          # its parent and replaying it plus everything after it, then
+          # force-push.
           STATS_RE = re.compile(r'^Time: .+ - (LeetHub|LeetSync)$')
           MAX_FILES = 3
+          SEARCH_DEPTH = 15
 
-          def head_info():
-              sha = git('rev-parse HEAD').stdout.strip()
-              subject = git('log -1 --format=%s HEAD').stdout.strip()
-              files = git('diff-tree --no-commit-id --name-only -r HEAD').stdout.strip().splitlines()
-              return sha, subject, files
+          def commit_info(sha):
+              subject = git(f'log -1 --format=%s {sha}').stdout.strip()
+              files = git(f'diff-tree --no-commit-id --name-only -r {sha}').stdout.strip().splitlines()
+              return subject, files
+
+          def find_target():
+              """Walk back from HEAD for the nearest genuine single-problem
+              commit whose message isn't the stats line. Returns
+              (target_sha, folder, stats_sha) or None if nothing to fix."""
+              shas = git(f'log --format=%H -n {SEARCH_DEPTH} HEAD').stdout.strip().splitlines()
+              for sha in shas:
+                  subject, files = commit_info(sha)
+                  if not files or len(files) > MAX_FILES:
+                      continue
+                  readme = next((f for f in files if f.endswith("README.md") and "/" in f), None)
+                  if not readme:
+                      continue
+                  # this is a genuine per-problem commit - it's either already
+                  # fine, or it's exactly the thing we should fix. Either way,
+                  # stop walking further back once we hit the first one.
+                  if STATS_RE.match(subject):
+                      return None
+                  folder = readme.rsplit('/', 1)[0]
+                  log = git(f'log --format=%H%x09%s {sha}~1 -- "{folder}"').stdout.strip().splitlines()
+                  stats_sha = None
+                  for line in log:
+                      h, _, msg = line.partition('\t')
+                      if STATS_RE.match(msg):
+                          stats_sha = h
+                          break
+                  if not stats_sha or stats_sha == sha:
+                      return None
+                  return sha, folder, stats_sha
+              return None
 
           fixed = False
           for attempt in range(5):
               git('fetch origin main')
               git('reset --hard origin/main')
-              sha, subject, files = head_info()
+              head_sha = git('rev-parse HEAD').stdout.strip()
 
-              if STATS_RE.match(subject):
-                  print("HEAD already shows its stats message, nothing to do.")
+              found = find_target()
+              if not found:
+                  print("Nothing to fix.")
                   break
-
-              if not files or len(files) > MAX_FILES:
-                  print("HEAD is not a single-problem commit, skipping.")
-                  break
-
-              readme = next((f for f in files if f.endswith("README.md")), None)
-              if not readme:
-                  print("HEAD touched no README.md, skipping.")
-                  break
-              folder = readme.rsplit('/', 1)[0]
-
-              log = git(f'log --format=%H%x09%s HEAD^ -- "{folder}"').stdout.strip().splitlines()
-              stats_sha = None
-              for line in log:
-                  h, _, msg = line.partition('\t')
-                  if STATS_RE.match(msg):
-                      stats_sha = h
-                      break
-
-              if not stats_sha:
-                  print(f"No stats commit found for {folder}, skipping.")
-                  break
-
-              if stats_sha == sha:
-                  print("HEAD is already the stats commit, nothing to do.")
-                  break
+              target_sha, folder, stats_sha = found
 
               git('config user.name "github-actions[bot]"')
               git('config user.email "github-actions[bot]@users.noreply.github.com"')
-              git(f'commit --amend -C {stats_sha}')
 
-              if git(f'push --force-with-lease=main:{sha} origin main').returncode == 0:
-                  print(f"Reworded HEAD commit for {folder} back to its stats message.")
+              if target_sha == head_sha:
+                  git(f'commit --amend --allow-empty -C {stats_sha}')
+              else:
+                  # Reword a non-tip commit without interactive rebase: rewind
+                  # to its parent, replay its own diff under the real stats
+                  # message, then replay everything that came after it
+                  # (always unrelated root-readme-only commits so far) via
+                  # cherry-pick, which preserves each one's own message.
+                  # --no-commit + --allow-empty: LeetHub occasionally fires
+                  # the same commit twice in a row, so target's own diff
+                  # against its parent can be empty - still reword it.
+                  git(f'reset --hard {target_sha}~1')
+                  cp = git(f'cherry-pick --no-commit --allow-empty {target_sha}')
+                  if cp.returncode != 0:
+                      print(f"cherry-pick of {target_sha} failed, aborting this attempt")
+                      git('cherry-pick --abort')
+                      git(f'reset --hard {head_sha}')
+                      break
+                  commit_result = git(f'commit --allow-empty -C {stats_sha}')
+                  if commit_result.returncode != 0:
+                      print(f"commit -C {stats_sha} failed, aborting this attempt")
+                      git(f'reset --hard {head_sha}')
+                      break
+                  replay = git(f'cherry-pick --allow-empty {target_sha}..{head_sha}')
+                  if replay.returncode != 0:
+                      print(f"replaying commits after {target_sha} failed, aborting this attempt")
+                      git('cherry-pick --abort')
+                      git(f'reset --hard {head_sha}')
+                      break
+
+              if git(f'push --force-with-lease=main:{head_sha} origin main').returncode == 0:
+                  print(f"Reworded commit for {folder} back to its stats message.")
                   fixed = True
                   break
               print(f"Push race detected, retrying (attempt {attempt + 1})...")
