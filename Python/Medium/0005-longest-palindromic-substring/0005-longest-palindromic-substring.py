@@ -4,24 +4,16 @@ class Solution(object):
         :type s: str
         :rtype: str
         """
-        n = len(s)
-        dp = [[False] * n for _ in range(n)]
-        ans = [0, 0]
+        res = ""
+        def expand(l, r):
+            while l >= 0 and r < len(s) and s[l] == s[r]:
+                l -= 1
+                r += 1
+            return s[l+1:r]
 
-        for i in range(n):
-            dp[i][i] = True
+        for i in range(len(s)):
+            for x in (expand(i, i), expand(i, i + 1)):
+                if len(x) > len(res):
+                    res = x
 
-        for i in range(n - 1):
-            if s[i] == s[i + 1]:
-                dp[i][i + 1] = True
-                ans = [i, i + 1]
-
-        for diff in range(2, n):
-            for i in range(n - diff):
-                j = i + diff
-                if s[i] == s[j] and dp[i + 1][j - 1]:
-                    dp[i][j] = True
-                    ans = [i, j]
-
-        i, j = ans
-        return s[i:j + 1]
+        return res
