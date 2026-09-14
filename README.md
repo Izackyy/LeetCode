@@ -224,6 +224,7 @@
 | [0062-unique-paths](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0062-unique-paths/) | Medium |
 | [0063-unique-paths-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0063-unique-paths-ii/) | Medium |
 | [0070-climbing-stairs](https://github.com/Izackyy/LeetCode/tree/main/Python/Easy/0070-climbing-stairs/) | Easy |
+| [0300-longest-increasing-subsequence](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0300-longest-increasing-subsequence/) | Medium |
 | [0322-coin-change](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0322-coin-change/) | Medium |
 | [0392-is-subsequence](https://github.com/Izackyy/LeetCode/tree/main/Python/0392-is-subsequence/) | Easy |
 | [3180-maximum-total-reward-using-operations-i](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/3180-maximum-total-reward-using-operations-i/) | Medium |
@@ -283,6 +284,7 @@
 | [0135-candy](https://github.com/Izackyy/LeetCode/tree/main/Python/0135-candy/) | Hard |
 | [0238-product-of-array-except-self](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0238-product-of-array-except-self/) | Medium |
 | [0239-sliding-window-maximum](https://github.com/Izackyy/LeetCode/tree/main/Python/Hard/0239-sliding-window-maximum/) | Hard |
+| [0300-longest-increasing-subsequence](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0300-longest-increasing-subsequence/) | Medium |
 | [0322-coin-change](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0322-coin-change/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0347-top-k-frequent-elements/) | Medium |
 | [0496-next-greater-element-i](https://github.com/Izackyy/LeetCode/tree/main/Python/0496-next-greater-element-i/) | Easy |
@@ -377,6 +379,7 @@
 | [0004-median-of-two-sorted-arrays](https://github.com/Izackyy/LeetCode/tree/main/Python/Hard/0004-median-of-two-sorted-arrays/) | Hard |
 | [0033-search-in-rotated-sorted-array](https://github.com/Izackyy/LeetCode/tree/main/Python/0033-search-in-rotated-sorted-array/) | Medium |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Izackyy/LeetCode/tree/main/Python/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
+| [0300-longest-increasing-subsequence](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0300-longest-increasing-subsequence/) | Medium |
 | [0704-binary-search](https://github.com/Izackyy/LeetCode/tree/main/Python/0704-binary-search/) | Easy |
 | [0875-koko-eating-bananas](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0875-koko-eating-bananas/) | Medium |
 ## Sliding Window
@@ -493,4 +496,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0322-coin-change](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0322-coin-change/) | Medium |
+## Longest Increasing Subsequence
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0300-longest-increasing-subsequence](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0300-longest-increasing-subsequence/) | Medium |
 <!---LeetCode Topics End-->
