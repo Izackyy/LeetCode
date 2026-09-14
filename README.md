@@ -8,16 +8,16 @@
 | Difficulty | Count |
 | --- | --- |
 | Easy | 180 |
-| Medium | 72 |
+| Medium | 73 |
 | Hard | 8 |
-| **Total** | 260 |
+| **Total** | 261 |
 
 ### Languages
 | Language | Count |
 | --- | --- |
 | C | 1 |
 | C++ | 109 |
-| Python | 68 |
+| Python | 69 |
 | SQL | 83 |
 
 ### Topics by Language
@@ -71,14 +71,15 @@
 - C++ Trie: 1
 - C++ Two Pointers: 23
 - C++ Z Algorithm: 1
-- Python Array: 37
+- Python Array: 38
 - Python Backtracking: 5
 - Python Binary Search: 5
 - Python Binary Tree: 3
 - Python Bit Manipulation: 2
-- Python Breadth-First Search: 7
+- Python Breadth-First Search: 8
 - Python Bucket Sort: 1
 - Python Combinatorics: 1
+- Python Complete Knapsack: 1
 - Python Counting: 4
 - Python Depth-First Search: 7
 - Python Design: 1
@@ -86,12 +87,13 @@
 - Python Directed Acyclic Graph: 1
 - Python Divide and Conquer: 3
 - Python Doubly-Linked List: 1
-- Python Dynamic Programming: 9
+- Python Dynamic Programming: 10
 - Python Graph Theory: 4
 - Python Greedy: 6
 - Python Hash Function: 1
 - Python Hash Table: 18
 - Python Heap (Priority Queue): 4
+- Python Knapsack Problem: 1
 - Python Knuth–Morris–Pratt Algorithm: 1
 - Python Linked List: 3
 - Python Manacher: 1
