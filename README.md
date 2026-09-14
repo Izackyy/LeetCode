@@ -222,6 +222,7 @@
 | [0062-unique-paths](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0062-unique-paths/) | Medium |
 | [0063-unique-paths-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0063-unique-paths-ii/) | Medium |
 | [0070-climbing-stairs](https://github.com/Izackyy/LeetCode/tree/main/Python/Easy/0070-climbing-stairs/) | Easy |
+| [0322-coin-change](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0322-coin-change/) | Medium |
 | [0392-is-subsequence](https://github.com/Izackyy/LeetCode/tree/main/Python/0392-is-subsequence/) | Easy |
 | [3180-maximum-total-reward-using-operations-i](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/3180-maximum-total-reward-using-operations-i/) | Medium |
 ## Greedy
@@ -280,6 +281,7 @@
 | [0135-candy](https://github.com/Izackyy/LeetCode/tree/main/Python/0135-candy/) | Hard |
 | [0238-product-of-array-except-self](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0238-product-of-array-except-self/) | Medium |
 | [0239-sliding-window-maximum](https://github.com/Izackyy/LeetCode/tree/main/Python/Hard/0239-sliding-window-maximum/) | Hard |
+| [0322-coin-change](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0322-coin-change/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0347-top-k-frequent-elements/) | Medium |
 | [0496-next-greater-element-i](https://github.com/Izackyy/LeetCode/tree/main/Python/0496-next-greater-element-i/) | Easy |
 | [0560-subarray-sum-equals-k](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0560-subarray-sum-equals-k/) | Medium |
@@ -352,6 +354,7 @@
 | ------- | ------- |
 | [0207-course-schedule](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0210-course-schedule-ii/) | Medium |
+| [0322-coin-change](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0322-coin-change/) | Medium |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Izackyy/LeetCode/tree/main/Python/0637-average-of-levels-in-binary-tree/) | Easy |
 | [0743-network-delay-time](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0743-network-delay-time/) | Medium |
 | [0994-rotting-oranges](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0994-rotting-oranges/) | Medium |
@@ -480,4 +483,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0070-climbing-stairs](https://github.com/Izackyy/LeetCode/tree/main/Python/Easy/0070-climbing-stairs/) | Easy |
+## Knapsack Problem
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0322-coin-change](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0322-coin-change/) | Medium |
+## Complete Knapsack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0322-coin-change](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0322-coin-change/) | Medium |
 <!---LeetCode Topics End-->
