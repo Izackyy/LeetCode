@@ -135,6 +135,7 @@
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Izackyy/LeetCode/tree/main/Python/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0049-group-anagrams](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0049-group-anagrams/) | Medium |
 | [0076-minimum-window-substring](https://github.com/Izackyy/LeetCode/tree/main/Python/Hard/0076-minimum-window-substring/) | Hard |
+| [0079-word-search](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0079-word-search/) | Medium |
 | [0383-ransom-note](https://github.com/Izackyy/LeetCode/tree/main/Python/0383-ransom-note/) | Easy |
 | [0387-first-unique-character-in-a-string](https://github.com/Izackyy/LeetCode/tree/main/Python/0387-first-unique-character-in-a-string/) | Easy |
 | [0389-find-the-difference](https://github.com/Izackyy/LeetCode/tree/main/Python/0389-find-the-difference/) | Easy |
@@ -282,6 +283,7 @@
 | [0057-insert-interval](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0057-insert-interval/) | Medium |
 | [0059-spiral-matrix-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0059-spiral-matrix-ii/) | Medium |
 | [0063-unique-paths-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0063-unique-paths-ii/) | Medium |
+| [0079-word-search](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0079-word-search/) | Medium |
 | [0135-candy](https://github.com/Izackyy/LeetCode/tree/main/Python/0135-candy/) | Hard |
 | [0238-product-of-array-except-self](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0238-product-of-array-except-self/) | Medium |
 | [0239-sliding-window-maximum](https://github.com/Izackyy/LeetCode/tree/main/Python/Hard/0239-sliding-window-maximum/) | Hard |
@@ -319,6 +321,7 @@
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0079-word-search](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0079-word-search/) | Medium |
 | [0207-course-schedule](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0210-course-schedule-ii/) | Medium |
 | [0572-subtree-of-another-tree](https://github.com/Izackyy/LeetCode/tree/main/Python/0572-subtree-of-another-tree/) | Easy |
@@ -372,6 +375,7 @@
 | [0054-spiral-matrix](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0054-spiral-matrix/) | Medium |
 | [0059-spiral-matrix-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0059-spiral-matrix-ii/) | Medium |
 | [0063-unique-paths-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0063-unique-paths-ii/) | Medium |
+| [0079-word-search](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0079-word-search/) | Medium |
 | [0661-image-smoother](https://github.com/Izackyy/LeetCode/tree/main/Python/0661-image-smoother/) | Easy |
 | [0994-rotting-oranges](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0994-rotting-oranges/) | Medium |
 ## Binary Search
@@ -401,6 +405,7 @@
 | [0040-combination-sum-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0040-combination-sum-ii/) | Medium |
 | [0046-permutations](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0046-permutations/) | Medium |
 | [0047-permutations-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0047-permutations-ii/) | Medium |
+| [0079-word-search](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0079-word-search/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
