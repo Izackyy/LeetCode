@@ -898,6 +898,15 @@
       "Counting"
     ]
   },
+  "longest-increasing-subsequence": {
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Dynamic Programming",
+      "Longest Increasing Subsequence"
+    ]
+  },
   "longest-palindrome": {
     "difficulty": "Easy",
     "topics": [
