@@ -1682,6 +1682,14 @@
       "Prefix Sum"
     ]
   },
+  "subsets": {
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Backtracking",
+      "Bit Manipulation"
+    ]
+  },
   "subtree-of-another-tree": {
     "difficulty": "Easy",
     "topics": [
