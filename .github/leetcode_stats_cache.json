@@ -1910,6 +1910,16 @@
       "String"
     ]
   },
+  "word-search": {
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "String",
+      "Backtracking",
+      "Depth-First Search",
+      "Matrix"
+    ]
+  },
   "zigzag-conversion": {
     "difficulty": "Medium",
     "topics": [
