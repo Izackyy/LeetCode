@@ -405,6 +405,7 @@
 | [0040-combination-sum-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0040-combination-sum-ii/) | Medium |
 | [0046-permutations](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0046-permutations/) | Medium |
 | [0047-permutations-ii](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0047-permutations-ii/) | Medium |
+| [0077-combinations](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0077-combinations/) | Medium |
 | [0079-word-search](https://github.com/Izackyy/LeetCode/tree/main/Python/Medium/0079-word-search/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
