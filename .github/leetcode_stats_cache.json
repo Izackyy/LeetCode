@@ -291,6 +291,12 @@
       "Backtracking"
     ]
   },
+  "combinations": {
+    "difficulty": "Medium",
+    "topics": [
+      "Backtracking"
+    ]
+  },
   "combine-two-tables": {
     "difficulty": "Easy",
     "topics": [
